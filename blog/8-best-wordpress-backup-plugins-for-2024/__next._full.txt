@@ -1,0 +1,510 @@
+1:"$Sreact.fragment"
+2:I[59919,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ThemeProvider"]
+3:I[94376,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[39756,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[37457,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[13642,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+8:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+c:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+e:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+10:I[68027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/1n51y8tjah9qt.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c47649aa31f9e140-s.p.3lxpqujs87tck.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","style"]
+0:{"P":null,"c":["","blog","8-best-wordpress-backup-plugins-for-2024"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","8-best-wordpress-backup-plugins-for-2024","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1n51y8tjah9qt.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3rdqn8rx95pw7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2oseul0aisn1o.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"hanken_grotesk_2d2ea67a-module__UgSA_q__variable inter_fe8b9d92-module__LINzvG__variable jetbrains_mono_7d65b77b-module__VxV-Ta__variable h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","rel":"stylesheet"}]}],["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/_next/static/chunks/067c_6752_jp_.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,null]},null,false,"$@b"]},null,false,"$@b"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$9",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1n51y8tjah9qt.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"x5y6_S993I5CQOSkHQpFm"}
+11:[]
+b:"$W11"
+12:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"default"]
+13:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],""]
+14:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"Image"]
+15:T4d12,
+<p class="wp-block-paragraph">While picking the best WordPress backup plugin to safeguard your site, there are a ton of subtleties to consider. You maintain that it should be not difficult to set up, simple to utilize and work completely every time since reinforcements are fundamental.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="626" height="417" src="https://blog.genxwhosting.com/wp-content/uploads/2024/02/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387-_1_.webp" alt="wordpress backup" class="wp-image-1190" style="object-fit:cover;width:900px;height:400px" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/02/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387-_1_.webp 626w, https://blog.genxwhosting.com/wp-content/uploads/2024/02/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387-_1_-300x200.webp 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/02/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387-_1_-600x400.webp 600w" sizes="auto, (max-width: 626px) 100vw, 626px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Additionally, most WordPress backup plugin save backup to your webpage&#8217;s server, occupy space and assets, and impact the presentation of the site. Perhaps you know for sure that backup should be placed elsewhere &#8211; which is surprising &#8211; however your site is over 100GB, and distributed storage costs prohibitively expensive.</p>
+
+
+
+<h2 class="wp-block-heading">What to look for in a WordPress backup plugin</h2>
+
+
+
+<p class="wp-block-paragraph">How do you choose the best WordPress backup plugin when there are so many free ones? Let us learn about the main elements that you should focus on when choosing the best WordPress backup plugin for your site.</p>
+
+
+
+<h3 class="wp-block-heading">Usability</h3>
+
+
+
+<p class="wp-block-paragraph">Ease of use is one of the main functionalities of the best plugin to boost WordPress. You should have the option to consolidate and reinstall your site with just a few snaps.</p>
+
+
+
+<h3 class="wp-block-heading">Automated backups</h3>
+
+
+
+<p class="wp-block-paragraph">An important highlight of the best modules to strengthen WordPress sites is the mechanized backup . Under the computerized reinforcement settings, you can choose the particular time required to perform the backup of your site. This way, you won&#8217;t need to stress about neglecting to make backups.</p>
+
+
+
+<h3 class="wp-block-heading">Backs up your database</h3>
+
+
+
+<p class="wp-block-paragraph">The best WordPress backup plugins should also maintain the total backup of both your documents and information bases.</p>
+
+
+
+<h3 class="wp-block-heading">Backup storage</h3>
+
+
+
+<p class="wp-block-paragraph">Another important thing is to make sure that the plugin&#8217;s backup repository is large enough to backup your entire site and stay away from information misfortunes. Also note that backups should never be kept on a server but on remote distributed storage.</p>
+
+
+
+<h3 class="wp-block-heading">Real-time backups</h3>
+
+
+
+<p class="wp-block-paragraph">Constant backup is a wonderful element that is included in probably the best WordPress backup plugins. This component saves your site information after every adjustment you make, meaning you won&#8217;t lose a single change or update.</p>
+
+
+
+<h3 class="wp-block-heading">Encrypted backups</h3>
+
+
+
+<p class="wp-block-paragraph">It is always best practice to encrypt your backups, even if they contain delicate information. Also, if you are an entrepreneur, it is important that you use a backup plugin that backs up your information. Thus, you will protect both your business and your customers&#8217; sensitive data.</p>
+
+
+
+<h2 class="wp-block-heading">The best backup plugins for WordPress in 2024</h2>
+
+
+
+<h2 class="wp-block-heading">1. BlogVault WordPress backup plugin</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="827" height="274" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-150440.png" alt="blogvault image" class="wp-image-998" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-150440.png 827w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-150440-300x99.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-150440-768x254.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-150440-600x199.png 600w" sizes="auto, (max-width: 827px) 100vw, 827px" /></figure>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="20" height="20" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/image.png" alt="" class="wp-image-996"/></figure>
+
+
+
+<p class="wp-block-paragraph">The main feature of BlogVault is to save your supported WordPress website on its cloud infrastructure, enabling you to save on your hosting plan resources.</p>
+
+
+
+<p class="wp-block-paragraph">With BlogVault, you can make limitless backup copies activate incremental backups. You can also customize the plugin to make a backup of your site after a specific period of time has passed.</p>
+
+
+
+<h4 class="wp-block-heading">Features</h4>
+
+
+
+<ul class="wp-block-list">
+<li>Third-party service integration for backup storage.</li>
+
+
+
+<li>BlogVault typically offers incremental backups. This can Reduces your server’s load.</li>
+
+
+
+<li>Supports WordPress multisites.</li>
+
+
+
+<li>Capacity to restore your website even if it’s completely down.</li>
+
+
+
+<li>Can integrate BlogVault with Malcare for additional security options</li>
+
+
+
+<li>Easy to use.</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">Pricing</h4>
+
+
+
+<p class="wp-block-paragraph">BlogVault just offers premium versions. The Essential plan begins at $89 each year for one site, In addition to begins at $149 each year for one site, and Pro starts at $299 each year for one site.</p>
+
+
+
+<h2 class="wp-block-heading">2. Solid Backups</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="811" height="282" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-154147.png" alt="Solid Backups image" class="wp-image-1006" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-154147.png 811w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-154147-300x104.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-154147-768x267.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-154147-600x209.png 600w" sizes="auto, (max-width: 811px) 100vw, 811px" /></figure>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="20" height="20" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/image-1.png" alt="" class="wp-image-997"/></figure>
+
+
+
+<p class="wp-block-paragraph">Solid Backups is one of the most installed WordPress backup plugins. The primary version was distributed by SolidWP in 2010, and since then, it has been continuously refreshed and updated every year.</p>
+
+
+
+<p class="wp-block-paragraph">Solid Backups With WordPress backup plugins, you&#8217;ll actually want to create a total site backup or clear pieces of it. For example, you can create a backup of only your WordPress themes, plugins, data sets, etc. Due to its various elements, many customers guarantee that Solid Backup is one of the most incredible WordPress backup plugins.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Real-time automatic and scheduled backups.</li>
+
+
+
+<li>Extra security highlights, for example, malware recognition.</li>
+
+
+
+<li>Rollback to the previous form information base without performing a full restore.</li>
+
+
+
+<li>Syncs with Google Drive, Dropbox, and Microsoft OneDrive.</li>
+
+
+
+<li>Database repair and scanning.</li>
+
+
+
+<li>Specific WordPress file backup and restoration.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">Solid Backups begins at $99 per year for one website, $199 per year for five websites, and $299 per year for 10 sites.</p>
+
+
+
+<h2 class="wp-block-heading">3.UpdraftPlus</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="806" height="282" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-155453.png" alt="updraftplus image" class="wp-image-1008" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-155453.png 806w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-155453-300x105.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-155453-768x269.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-155453-600x210.png 600w" sizes="auto, (max-width: 806px) 100vw, 806px" /></figure>
+
+
+
+<p class="wp-block-paragraph">More than 80% of destinations are under 1 GB in size. If your site is not business-based and can afford some extended periods of personal time, then, at that point, the UpdraftPlus WordPress backup plugin is a perfectly good option.</p>
+
+
+
+<p class="wp-block-paragraph">UpdraftPlus has been synonymous with WordPress backup for some time now, and it&#8217;s still a good option for smaller sites. It integrates with most cloud storage options straight out of the box, which is very convenient.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Manual and automatic backups</li>
+
+
+
+<li>Customisable complete and partial backups</li>
+
+
+
+<li><strong>Incremental backups</strong>&nbsp;for premium users</li>
+
+
+
+<li>1-click restores</li>
+
+
+
+<li>Amazing expert customer support.</li>
+
+
+
+<li>Migrator add-on offers the capacity to clone your WordPress site and relocate it to a new host or domain.</li>
+
+
+
+<li><strong>Extendable offsite storage</strong>&nbsp;with UpdraftVault</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">Premium versions start at $70 per year for up to two websites, $95 per year for up to 10 websites, $145 per year for up to 35 websites, and $195 per year for unlimited websites.</p>
+
+
+
+<h2 class="wp-block-heading">4. Duplicator</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="818" height="259" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-160449.png" alt="duplicator image" class="wp-image-1013" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-160449.png 818w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-160449-300x95.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-160449-768x243.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-160449-600x190.png 600w" sizes="auto, (max-width: 818px) 100vw, 818px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Duplicator is another popular WordPress plugin that is often used for migrations, but it can also be used for backups. It offers hourly scheduled backups, either partial or full. Duplicator is not a beginner-friendly plugin, and it requires some technical understanding to work with it.</p>
+
+
+
+<p class="wp-block-paragraph">Duplicator is one of the best backup plugins for WordPress websites that offers almost all the essential features in its free version, which is at par with the paid plugins.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Manual backup of a entire WordPress site or just the parts of it.</li>
+
+
+
+<li>Scheduled automatic backups</li>
+
+
+
+<li>Migration capabilities</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">Premium plans start at $49.50 for the first year (renews at $99 per year) for two sites. Features include drag and drop installs, scheduled backups, third-party cloud storage and more.</p>
+
+
+
+<h2 class="wp-block-heading">5. Jetpack Backup</h2>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="811" height="235" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-161357.png" alt="jackpack image" class="wp-image-1016" style="width:840px;height:auto" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-161357.png 811w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-161357-300x87.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-161357-768x223.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-161357-600x174.png 600w" sizes="auto, (max-width: 811px) 100vw, 811px" /></figure>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="20" height="20" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/image-14.png" alt="" class="wp-image-1015"/></figure>
+
+
+
+<p class="wp-block-paragraph">Jetpack VaultPress backup was integrated into the famous Jetpack plugin which was created by WordPress parent company, Automattic. With Jetpack Backup, you can restore your site from a backup with one tick. </p>
+
+
+
+<p class="wp-block-paragraph">This plugin securely stores each of your robotized backups in the cloud without dialing back your site. Jetpack Backup is easy to use, meaning you don&#8217;t need to stress about coding or cluttering up settings.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Real-Time Backups</li>
+
+
+
+<li>Incremental backups are available.</li>
+
+
+
+<li>Backs up both your website’s databases and files.</li>
+
+
+
+<li>Jetpack’s mobile application enables you to reestablish your site anywhere and anytime.</li>
+
+
+
+<li>Migration capabilities</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">$85/year for backup plans with some security features and performance features, and unlimited storage.&nbsp;&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">6. WP Time Capsule</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="815" height="250" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-162354.png" alt="wp time image" class="wp-image-1019" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-162354.png 815w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-162354-300x92.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-162354-768x236.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-162354-600x184.png 600w" sizes="auto, (max-width: 815px) 100vw, 815px" /></figure>
+
+
+
+<p class="wp-block-paragraph">WP Time Capsule backs up every change made to your site, so you won&#8217;t have to stress about the security of your files as backups are automatically up to date in each situation.</p>
+
+
+
+<p class="wp-block-paragraph">Your website is safe from hackers, which means that in the worst case, if your website gets hacked, you will be able to restore it with just one click.</p>
+
+
+
+<p class="wp-block-paragraph">With WP Time Capsule, you can test the updates and changes you made to your site in the staging site with no downtime. Besides, you can store your backups utilizing third-party tools for complete control.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>WP Time Capsule provides incremental backups</li>
+
+
+
+<li>allow Real-Time Backups</li>
+
+
+
+<li>Users can easily restore their WordPress website to a previous state with just one click</li>
+
+
+
+<li>WP Time Capsule include a staging environment feature</li>
+
+
+
+<li>WP Time Capsule is designed to be compatible with various hosting environments and WordPress setups.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">Premium versions start with the business plan at $49 per year, which allows you to backup up to two websites and store them for 30 days. The freelancer plan costs $99 per year for up to 10 websites, and your backups are stored for 120 days.</p>
+
+
+
+<h2 class="wp-block-heading">7. WPvivid</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="807" height="261" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-163737.png" alt="wpvivid image" class="wp-image-1022" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-163737.png 807w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-163737-300x97.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-163737-768x248.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-163737-600x194.png 600w" sizes="auto, (max-width: 807px) 100vw, 807px" /></figure>
+
+
+
+<p class="wp-block-paragraph">WPVivid offers scheduled, automated site backups and one-click restore and migration. The plugin allows you to send backups to remote capacity administrations as well as effectively transfer sites or documents to new features and areas. You can also change the backup contents and lock the backup to prevent automatic deletion.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Restores backups with just one click.</li>
+
+
+
+<li>Integration with cloud services</li>
+
+
+
+<li>Supports saving backups to various external storage services like Dropbox, Google Drive, Amazon S3, FTP, and more.</li>
+
+
+
+<li>Ability to clean up unused or specific images.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">$49/year&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading">8. BackWPup</h2>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="794" height="229" src="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-165527.png" alt="backwpup image" class="wp-image-1025" srcset="https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-165527.png 794w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-165527-300x87.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-165527-768x222.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2024/01/Screenshot-2024-01-31-165527-600x173.png 600w" sizes="auto, (max-width: 794px) 100vw, 794px" /></figure>
+
+
+
+<p class="wp-block-paragraph">BackWPup promises reliable backups and automatic restores. Furthermore, our testing was effective in determining the feasibility of backup. Backup stores and restores the backup, although the cycle itself doesn&#8217;t make much sense or natural.</p>
+
+
+
+<h3 class="wp-block-heading">Features</h3>
+
+
+
+<ul class="wp-block-list">
+<li>BackWPup may offer encryption options to secure your backup files.</li>
+
+
+
+<li>features for optimizing and repairing the WordPress database.</li>
+
+
+
+<li>Job Logs and Email Notifications</li>
+
+
+
+<li>Backup Storage Options</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">Pricing</h3>
+
+
+
+<p class="wp-block-paragraph">Most backup features are free. but you’ll need a plan. Plans start at $69/year.</p>
+7:[["$","$L12",null,{}],["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L13",null,{"href":"/category/wordpress","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["WordPress",""]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"8 best WordPress backup plugins for 2024"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$L14",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"Jan 31, 2024","children":"Jan 31, 2024"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"9 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2024/01/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387.jpg","alt":"Hero","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text space-y-6 prose-headings:text-deep-navy prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto","dangerouslySetInnerHTML":{"__html":"$15"}}],"$L16","$L17"]}]}],"$L18"]
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+16:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"WordPress"}]]}]
+17:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+18:["$","section",null,{"className":"bg-surface py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L13","458",{"href":"/blog/domain","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2023/12/search-engine-marketing-collage-1-1-scaled.jpg","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Domain"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Few Pointers To Help You Select The Ideal Domain Name For Your Website"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"A Domain name is unique. Making the right choice for your website&#8217;s domain name is crucial and can have a big influence on your online presence...."}}]]}]]}],["$","$L13","1011",{"href":"/blog/6-best-wordpress-security-plugins-to-protect-your-site","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2024/01/wordpress.webp","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"WordPress"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"6 Best WordPress Security Plugins to Protect Your Site"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"WordPress Security\n..."}}]]}]]}],["$","$L13","929",{"href":"/blog/which-is-best-elementor-and-divi","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2023/12/vs-_1_.webp","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],"$L19"]}]]}]]}]}]
+19:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"WordPress"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Which Is Best, Elementor or Divi."}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"When you&#8217;re setting up a website for your projects (like a blog, portfolio, landing page, etc.) on WordPress, the first thing that often comes t..."}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1a:I[27201,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+a:null
+f:[["$","title","0",{"children":"HostLogic Blog"}],["$","meta","1",{"name":"description","content":"Professional High-Performance Hosting Blog"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1a","3",{}]]

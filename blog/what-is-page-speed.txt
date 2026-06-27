@@ -1,0 +1,384 @@
+1:"$Sreact.fragment"
+2:I[59919,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ThemeProvider"]
+3:I[94376,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[39756,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[37457,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[13642,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+8:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+c:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+e:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+10:I[68027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/1n51y8tjah9qt.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c47649aa31f9e140-s.p.3lxpqujs87tck.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","style"]
+0:{"P":null,"c":["","blog","what-is-page-speed"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","what-is-page-speed","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1n51y8tjah9qt.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3rdqn8rx95pw7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/2oseul0aisn1o.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"hanken_grotesk_2d2ea67a-module__UgSA_q__variable inter_fe8b9d92-module__LINzvG__variable jetbrains_mono_7d65b77b-module__VxV-Ta__variable h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","rel":"stylesheet"}]}],["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/_next/static/chunks/067c_6752_jp_.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,null]},null,false,"$@b"]},null,false,"$@b"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$9",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1n51y8tjah9qt.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"x5y6_S993I5CQOSkHQpFm"}
+11:[]
+b:"$W11"
+12:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"default"]
+13:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],""]
+14:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"Image"]
+15:T4c7b,
+<p class="wp-block-paragraph">Page speed alludes to how rapidly your substance loads when somebody visits a page on your site. In no way related to site speed, page speed addresses the stacking season of a particular page.</p>
+
+
+
+<p class="wp-block-paragraph">There are various variables that can impact page speed. Probably the most significant include:</p>
+
+
+
+<ul class="wp-block-list">
+<li>The number of pictures, recordings, and different media documents are contained on the page</li>
+
+
+
+<li>What subjects and modules are introduced on your site</li>
+
+
+
+<li>Your site&#8217;s (and the particular page&#8217;s) coding and server-side contents</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">These components influence your page stacking speed and thusly your site&#8217;s UX. All things considered, guests disdain slow-stacking pages and are bound to click away from them.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Why is page speed important?</strong></h2>
+
+
+
+<p class="wp-block-paragraph">With regards to page stacking speed, consistently counts. As a matter of fact, Google research shows that while stacking times increment from one to three seconds, the likelihood of a skip (the guest leaving immediately) increments by 32%.</p>
+
+
+
+<p class="wp-block-paragraph">In the event that the page requires five seconds to stack, the likelihood of a skip ascends by 90%:</p>
+
+
+
+<p class="wp-block-paragraph">All in all, on the off chance that your pages don&#8217;t stack inside a couple of moments, it fundamentally builds the opportunity that guests will leave your site. Moreover, assuming your site pages are languid, that can hurt your capacity to drive commitment and transformations.</p>
+
+
+
+<p class="wp-block-paragraph">Page speed likewise assumes a vital part in Site design improvement (Website optimization). Google thinks about a wide assortment of elements while choosing how to rank site pages.</p>
+
+
+
+<p class="wp-block-paragraph">Be that as it may, speed is a significant positioning sign for both work area and versatile quests.</p>
+
+
+
+<p class="wp-block-paragraph">Another explanation page speed matters is on the grounds that it can impact purchasers&#8217; view of your image. Assuming your site pages take too lengthy to even consider stacking or anything turns out badly during the cycle, it can make you look amateurish, and your site inconsistent.</p>
+
+
+
+<p class="wp-block-paragraph">To run an exceptionally viable site, in this way, it&#8217;s important to zero in on upgrading page speed. The most vital phase in doing that is sorting out how your pages are presently performing.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>How to Measure Page Speed</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Prior to rolling out any improvements to your webpage, you&#8217;ll have to measure your pages&#8217; exhibition. There are different apparatuses you can use to test and gauge page speed. Two famous arrangements are Pingdom Site Speed Test and GTmetrix, which are both fledgling cordial choices.</p>
+
+
+
+<p class="wp-block-paragraph">Be that as it may, we suggest beginning with Google <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> of knowledge. This is a simple to-utilize apparatus that empowers you to quantify and test the speed of your pages on both work area and cell phones.</p>
+
+
+
+<p class="wp-block-paragraph">Besides, as a Google-upheld instrument, it can assist you with ensuring you&#8217;re raising a ruckus around town benchmarks expected for high output situations.</p>
+
+
+
+<p class="wp-block-paragraph">To utilize <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> of knowledge, basically enter the URL of the page you need to test into the text field, and choose the Examine button:</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="407" src="https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854-1024x407.png" alt="page speed insights image" class="wp-image-788" style="width:760px;height:auto" srcset="https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854-1024x407.png 1024w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854-300x119.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854-768x305.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854-1536x611.png 1536w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-112854.png 1775w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p class="wp-block-paragraph">PageSpeed Experiences will then, at that point, investigate the substance on your page, and score it on a size of 0 to 100. Beneath your score, you&#8217;ll find a rundown of ideas on ways you can further develop page stacking speed:</p>
+
+
+
+<h2 class="wp-block-heading"><strong>9 Methods for further developing Page Stacking Velocity</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Now that you comprehend the significance of page speed and how to test your site&#8217;s exhibition, now is the right time to chip away at working on this key measurement.</p>
+
+
+
+<p class="wp-block-paragraph">Considering that, we should investigate nine simple methods for making your pages load quicker.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="381" src="https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-120641-1-1024x381.png" alt="performance image" class="wp-image-794" srcset="https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-120641-1-1024x381.png 1024w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-120641-1-300x112.png 300w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-120641-1-768x285.png 768w, https://blog.genxwhosting.com/wp-content/uploads/2023/12/Screenshot-2023-12-18-120641-1.png 1259w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h4 class="wp-block-heading"><strong>1. </strong>Choose a performance-optimized hosting solution.<br></h4>
+
+
+
+<p class="wp-block-paragraph">The facilitating supplier you use assumes a significant part in your site&#8217;s administration and execution. That incorporates its page speeds.</p>
+
+
+
+<p class="wp-block-paragraph">Quite possibly of the most obviously terrible misstep you can make is agreeing to fair facilitating to get a lower month to month rate.</p>
+
+
+
+<p class="wp-block-paragraph">Modest facilitating frequently means lackluster showing.It can mean splitting resources between different locales on an over-trouble server, which can end up focusing on your page stacking tim</p>
+
+
+
+<p class="wp-block-paragraph">Then again, there are a small bunch of execution centered facilitating arrangements you can utilize, for example, SiteGround and Kinsta that give a strong stage intended to speed. </p>
+
+
+
+<p class="wp-block-paragraph">Generally, these suppliers don&#8217;t offer shared facilitating, and that implies you won&#8217;t ever need to stress over different sites depleting your pool of possible assets.</p>
+
+
+
+<h4 class="wp-block-heading">2. Compress and optimize your images</h4>
+
+
+
+<p class="wp-block-paragraph">Pictures assist with upgrading the presence of your site pages and increment the nature of your substance.</p>
+
+
+
+<p class="wp-block-paragraph">In this way, one of the most straightforward ways of speeding up is to pack and enhance your pictures. This can incorporate changing their document designs, empowering languid stacking, and compacting pictures through lossy or lossless pressure.</p>
+
+
+
+<p class="wp-block-paragraph">By decreasing your pictures&#8217; record sizes, you can lessen their &#8216;weight&#8217;, at last assisting your pages with stacking all the more rapidly. There are an assortment of picture streamlining modules you can use for this reason, like WP Smush.</p>
+
+
+
+<p class="wp-block-paragraph">After you introduce and enact this module, it will consequently resize and pack your pictures without influencing their quality. It incorporates highlights for lossless pressure, sluggish stacking, and in any event, enhancing pictures in mass.</p>
+
+
+
+<p class="wp-block-paragraph">Another extremely powerful module for WordPress sites is the SiteGround Analyzer module. It offers strong picture pressure choices that can lessen your picture size by up to 85% without compromising picture quality. </p>
+
+
+
+<p class="wp-block-paragraph">Moreover, the module gives a choice to utilizing the WebP picture design, lethargic stacking, and other picture streamlining highlights that can essentially diminish your media size and further develop your stacking speed. The module is totally free and simple to utilize.</p>
+
+
+
+<p class="wp-block-paragraph">On the off chance that you&#8217;re not involving WordPress as your CMS, you should attempt with tinypng.com or Attrock, which can decrease your picture estimates somewhere in the range of 25% to 80%, and a free site application called Squoosh.</p>
+
+
+
+<h4 class="wp-block-heading">3. Reduce your redirects.</h4>
+
+
+
+<p class="wp-block-paragraph">Too many sidetracks on your site can truly hurt stacking times. Each time a page diverts elsewhere, it delays the HTTP solicitation and reaction process.</p>
+
+
+
+<p class="wp-block-paragraph">Obviously, at times diverts might be important, for example, while you&#8217;re moving to another area. Be that as it may, disposing of superfluous sidetracks on your site can result in altogether lower page stacking times.</p>
+
+
+
+<p class="wp-block-paragraph">There are one or two methods for diminishing sidetracks in WordPress. One is to abstain from making superfluous ones while building inside connections and menus. Another is ensuring your High Level Space (TLD) settle with a limit of one redirection.</p>
+
+
+
+<p class="wp-block-paragraph">Assuming you really want assistance recognizing diverts that are mistakenly set up on your site, you can utilize the Patrick Sexton Divert mapper instrument:</p>
+
+
+
+<p class="wp-block-paragraph">This will reveal any copy diverts. You can likewise utilize an instrument like Shouting Frog to distinguish all the sidetracks on your site and where they lead to. </p>
+
+
+
+<p class="wp-block-paragraph">This ought to make it more straightforward to recognize diverts that aren&#8217;t filling a need. Then you can erase the ones you don&#8217;t require through your site&#8217;s .htaccess document.</p>
+
+
+
+<h4 class="wp-block-heading">4. Cache your web pages.</h4>
+
+
+
+<p class="wp-block-paragraph">Storing is one of the best ways of accelerating your pages. Reserving stores duplicates of your webpage&#8217;s documents, limiting the turn out required for the server to produce and serve a site page to a guest&#8217;s program.</p>
+
+
+
+<p class="wp-block-paragraph">Storing your pages can assist with bringing Time down to First Byte (TTFB), by requiring the server to utilize less assets to stack a page.</p>
+
+
+
+<p class="wp-block-paragraph">There are different ways of storing your pages. You can do this at the server level, implying that your host handles it for you.</p>
+
+
+
+<p class="wp-block-paragraph">Another choice is to utilize a storing module, for example, W3 Complete Reserve, which is a free WordPress module that makes storing your pages speedy and simple. After you introduce and enact it, just explore to General Settings &gt; Page Reserve and select the Empower choice.</p>
+
+
+
+<p class="wp-block-paragraph">You can likewise exploit WP Rocket, a strong storing module that will support your stacking time and streamline your PageSpeed Experiences score and Center Web Vitals in only a couple of snaps.</p>
+
+
+
+<p class="wp-block-paragraph"> Additionally, the module applies 80% of web execution best practices upon initiation &#8211; the ideal instrument to save time and make your webpage quicker.</p>
+
+
+
+<p class="wp-block-paragraph">One more valuable answer for your WordPress site is the free SiteGround Streamlining agent module that offers strong storing advances, for example, dynamic reserving, object storing, document based reserving, and other reserving settings. These can make your site load up to 20% quicker than similar modules.</p>
+
+
+
+<h4 class="wp-block-heading">5. Enable browser caching.</h4>
+
+
+
+<p class="wp-block-paragraph">Program storing is one more type of reserving you can use to further develop page stacking speeds. This procedure empowers the program to store an assortment of data, including templates, pictures, and JavaScript documents, so it doesn&#8217;t need to reload the whole page each time a client visits it.</p>
+
+
+
+<p class="wp-block-paragraph">Like W3 All out Reserve, WP Rocket is a strong storing module you can use on your WordPress site. It utilizes page reserving and store pre-stacking to improve the speed of your pages, and make lightning-quick stacking times. WP Rocket is a premium module, with an assortment of valuing plans to browse.</p>
+
+
+
+<p class="wp-block-paragraph">Program storing is additionally presented by the free SiteGround Analyzer module and it&#8217;s not difficult to use for both non-specialized and experienced site proprietors the same.</p>
+
+
+
+<h4 class="wp-block-heading">6. Use defer loading for your CSS and JavaScript files.</h4>
+
+
+
+<p class="wp-block-paragraph">Your site is comprised of CSS and JavaScript records. These contents can stack either simultaneously or nonconcurrently.</p>
+
+
+
+<p class="wp-block-paragraph">Simultaneously implies that the documents load each in turn, according to the pattern in which wherein they show up on your site page.</p>
+
+
+
+<p class="wp-block-paragraph">With this technique, when the program experiences a content, it will quit stacking different components on the page until that record has been completely stacked first.</p>
+
+
+
+<p class="wp-block-paragraph">Alternately, offbeat stacking empowers different records to stack simultaneously, which can accelerate the page&#8217;s exhibition. Setting this up includes taking out render-obstructing assets.</p>
+
+
+
+<p class="wp-block-paragraph">On the off chance that you&#8217;re utilizing WordPress, you could either utilize a mix of the Autoptimize and Async JavaScript modules to effortlessly deal with this errand.</p>
+
+
+
+<p class="wp-block-paragraph">You could likewise go for the most clear choice and use WP Rocket. The module incorporates three successful highlights to advance CSS and Javascript documents: Eliminate unused CSS, Burden JavaScript conceded, and Defer JavaScript execution. </p>
+
+
+
+<p class="wp-block-paragraph">You just have to empower the choices, and the module will deal with the record enhancement.</p>
+
+
+
+<p class="wp-block-paragraph">Another choice is the free SiteGround Analyzer module. It incorporates many highlights for advancing CSS and JavaScript records &#8211; CSS and JavaScript blend, conceding the stacking of render-obstructing JavaScript, and numerous others.</p>
+
+
+
+<h4 class="wp-block-heading">7. Minify CSS, JavaScript, and HTML.</h4>
+
+
+
+<p class="wp-block-paragraph">Advancing the manner in which your records burden can assist with further developing page stacking speed. Essentially, so can minifying your CSS, JavaScript, and HTML code. </p>
+
+
+
+<p class="wp-block-paragraph">This implies eliminating superfluous spaces, characters, remarks, and other unnecessary components to lessen the size of the documents.</p>
+
+
+
+<p class="wp-block-paragraph">Diminishing your documents&#8217; sizes likewise makes it simpler to join them. The outcome is cleaner code, and more slender site pages that heap quicker.</p>
+
+
+
+<p class="wp-block-paragraph">Obviously, searching through each line of code for every one of your site&#8217;s records isn&#8217;t precisely effective.</p>
+
+
+
+<p class="wp-block-paragraph">All things being equal, you can minify your CSS, JavaScript, and HTML with a free module: Autoptimize all things considered. This famous module makes it simple to naturally total and minify your contents and styles:</p>
+
+
+
+<p class="wp-block-paragraph">Taking into account the wide assortment of highlights and settings it offers, designing this module can a piece overpower from the beginning. To make your occupation more straightforward, go ahead and look at this aide on the best way to set up Autoptimize on your site.</p>
+
+
+
+<p class="wp-block-paragraph">To save yourself a few time and exertion, you can attempt the SiteGround Enhancer module which offers compelling minification feaetures (in addition to other things). You can empower HTTML, CSS, and JavaScript minification in a single tick to make your documents more lightweight.</p>
+
+
+
+<h4 class="wp-block-heading">8. Leverage a content delivery network (CDN).</h4>
+
+
+
+<p class="wp-block-paragraph">A Substance Conveyance Organization (CDN), likewise alluded to as a &#8216;content dispersion organization&#8217;, is an organization of servers that can assist with further developing page stacking speed. It does this by facilitating and conveying duplicates of your site&#8217;s static substance from servers situated across the globe.</p>
+
+
+
+<p class="wp-block-paragraph">A CDN works with, as opposed to instead of, your host. Notwithstanding the server that has your essential site, you can use a CDN to disperse duplicates of your site&#8217;s records among decisively picked server farms.</p>
+
+
+
+<p class="wp-block-paragraph">This can expand execution, by decreasing the distance information demands need to go among programs and your host&#8217;s servers. By stacking the substance for a website page from a server near every guest, a CDN lessens network dormancy and produce lower TTFBs.</p>
+
+
+
+<p class="wp-block-paragraph">You have an assortment of CDN choices to look over, one of which is picking a host that gives a CDN you can empower it straightforwardly from your own dashboard.</p>
+
+
+
+<h4 class="wp-block-heading">9. Eliminate unnecessary plugins.</h4>
+
+
+
+<p class="wp-block-paragraph">Not all modules are made equivalent. Having such a large number of modules on your site can cause superfluous swell that dials it back.</p>
+
+
+
+<p class="wp-block-paragraph">Moreover, modules that are obsolete or aren&#8217;t very much kept up with can represent a security danger, and even present similarity gives that hamper execution.</p>
+
+
+
+<p class="wp-block-paragraph">Subsequently, it&#8217;s a shrewd plan to limit the quantity of modules you use on your WordPress site. Obviously, quite possibly of the simplest method for doing this is by impairing and erasing any modules you don&#8217;t presently utilize.</p>
+
+
+
+<h4 class="wp-block-heading">10 . Implement SSL and Security Plugins</h4>
+
+
+
+<p class="wp-block-paragraph">SSL (Secure Socket Layer) encrypts data between the user&#8217;s browser and your website, ensuring data security and building trust. Installing SSL certificates is essential for safeguarding sensitive information like passwords and credit card details.</p>
+
+
+
+<p class="wp-block-paragraph">Additionally, security plugins like Wordfence or Sucuri offer real-time protection, malware scanning, and firewall integration, enhancing your site&#8217;s security. These tools protect against common threats such as brute force attacks and vulnerabilities, keeping your website safe from hackers.</p>
+
+
+
+<p class="wp-block-paragraph">By combining SSL and security plugins, you ensure a secure browsing experience and protect your website from cyber risks.</p>
+7:[["$","$L12",null,{}],["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L13",null,{"href":"/category/page-speed","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["Page Speed",""]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"What is page speed?"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$L14",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"Dec 18, 2023","children":"Dec 18, 2023"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"13 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2023/12/analytics-plan-strategy-insight-concept-scaled.webp","alt":"Hero","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text space-y-6 prose-headings:text-deep-navy prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto","dangerouslySetInnerHTML":{"__html":"$15"}}],"$L16","$L17"]}]}],"$L18"]
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+16:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"Page Speed"}]]}]
+17:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+18:["$","section",null,{"className":"bg-surface py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L13","458",{"href":"/blog/domain","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2023/12/search-engine-marketing-collage-1-1-scaled.jpg","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Domain"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Few Pointers To Help You Select The Ideal Domain Name For Your Website"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"A Domain name is unique. Making the right choice for your website&#8217;s domain name is crucial and can have a big influence on your online presence...."}}]]}]]}],["$","$L13","1011",{"href":"/blog/6-best-wordpress-security-plugins-to-protect-your-site","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2024/01/wordpress.webp","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"WordPress"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"6 Best WordPress Security Plugins to Protect Your Site"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"WordPress Security\n..."}}]]}]]}],["$","$L13","995",{"href":"/blog/8-best-wordpress-backup-plugins-for-2024","className":"block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"https://blog.genxwhosting.com/wp-content/uploads/2024/01/live-streaming-backup-download-computing-digital-data-transferring-streaming-download_36325-4387.jpg","alt":"Thumbnail","fill":true,"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],"$L19"]}]]}]]}]}]
+19:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"WordPress"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"8 best WordPress backup plugins for 2024"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"While picking the best WordPress backup plugin to safeguard your site, there are a ton of subtleties to consider. You maintain that it should be not d..."}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1a:I[27201,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/2oseul0aisn1o.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+a:null
+f:[["$","title","0",{"children":"HostLogic Blog"}],["$","meta","1",{"name":"description","content":"Professional High-Performance Hosting Blog"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1a","3",{}]]

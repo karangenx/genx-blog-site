@@ -22,6 +22,27 @@ const categoryConfig: Record<string, { subcategories: { name: string; slug: stri
   }
 };
 
+export async function generateStaticParams() {
+  const slugs = new Set<string>();
+  postsData.forEach(p => {
+    slugs.add(p.category.toLowerCase().replaceAll(' ', '-'));
+    if (p.subCategory) {
+      slugs.add(p.subCategory.toLowerCase().replaceAll(' ', '-'));
+      // also add the combined slug as it's checked in the page logic
+      slugs.add(`${p.category.toLowerCase().replaceAll(' ', '-')}-${p.subCategory.toLowerCase().replaceAll(' ', '-')}`);
+    }
+  });
+  
+  Object.keys(categoryConfig).forEach(mainCategorySlug => {
+    slugs.add(mainCategorySlug);
+    categoryConfig[mainCategorySlug].subcategories.forEach(sub => {
+      slugs.add(sub.slug);
+    });
+  });
+
+  return Array.from(slugs).map(slug => ({ slug }));
+}
+
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   // Simple title casing for category name from slug

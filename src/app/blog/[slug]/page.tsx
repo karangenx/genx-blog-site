@@ -4,6 +4,12 @@ import Link from "next/link";
 import postsData from "@/data/posts.json";
 import ReadingProgressBar from "@/components/ReadingProgressBar";
 
+export async function generateStaticParams() {
+  return postsData.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = postsData.find((p) => p.slug === slug);

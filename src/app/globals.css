@@ -1,26 +1,146 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-primary-fixed-dim: #9bcbff;
+  --color-surface-tint: #0a629e;
+  --color-inverse-primary: #9bcbff;
+  --color-on-primary: #ffffff;
+  --color-secondary-container: #d8e1eb;
+  --color-on-secondary-fixed: #141d24;
+  --color-surface-container-low: #f2f4f6;
+  --color-primary: #06619c;
+  --color-on-secondary: #ffffff;
+  --color-error: #ba1a1a;
+  --color-on-surface-variant: #414750;
+  --color-secondary-fixed-dim: #bec8d1;
+  --color-on-error: #ffffff;
+  --color-surface-dim: #d8dadc;
+  --color-tertiary: #7f5400;
+  --color-error-container: #ffdad6;
+  --color-on-surface: #191c1e;
+  --color-tertiary-fixed: #ffddb1;
+  --color-action-orange: #FFA500;
+  --color-inverse-surface: #2d3133;
+  --color-surface-variant: #e0e3e5;
+  --color-inverse-on-surface: #eff1f3;
+  --color-surface: #f7f9fb;
+  --color-primary-fixed: #d0e4ff;
+  --color-tertiary-fixed-dim: #fcba55;
+  --color-on-tertiary: #ffffff;
+  --color-on-error-container: #93000a;
+  --color-surface-container-high: #e6e8ea;
+  --color-on-secondary-fixed-variant: #3f4850;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-container: #a06b00;
+  --color-secondary-fixed: #dae3ed;
+  --color-surface-white: #FFFFFF;
+  --color-primary-container: #337ab7;
+  --color-surface-container-highest: #e0e3e5;
+  --color-on-tertiary-container: #fffeff;
+  --color-on-primary-fixed: #001d34;
+  --color-outline-variant: #c1c7d1;
+  --color-surface-container: #eceef0;
+  --color-on-tertiary-fixed: #291800;
+  --color-on-tertiary-fixed-variant: #624000;
+  --color-background: #f7f9fb;
+  --color-secondary: #565f68;
+  --color-deep-navy: #2C3E50;
+  --color-on-secondary-container: #5b646c;
+  --color-surface-bright: #f7f9fb;
+  --color-on-primary-container: #ffffff;
+  --color-on-primary-fixed-variant: #004a79;
+  --color-slate-text: #333333;
+  --color-on-background: #191c1e;
+  --color-outline: #717881;
+
+  --spacing-base: 8px;
+  --spacing-gutter: 24px;
+  --spacing-section-gap: 80px;
+  --spacing-container-max: 1200px;
+  --spacing-margin-edge: 32px;
+
+  --font-hanken-grotesk: var(--font-hanken-grotesk);
+  --font-inter: var(--font-inter);
+  --font-jetbrains-mono: var(--font-jetbrains-mono);
+
+  --font-display-lg: var(--font-hanken-grotesk);
+  --font-quote-accent: var(--font-inter);
+  --font-headline-lg-mobile: var(--font-hanken-grotesk);
+  --font-body-lg: var(--font-inter);
+  --font-headline-md: var(--font-hanken-grotesk);
+  --font-body-md: var(--font-inter);
+  --font-label-sm: var(--font-jetbrains-mono);
+  --font-headline-lg: var(--font-hanken-grotesk);
+
+  --text-display-lg: 48px;
+  --text-display-lg--line-height: 56px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 700;
+
+  --text-quote-accent: 20px;
+  --text-quote-accent--line-height: 32px;
+  --text-quote-accent--font-weight: 300;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--font-weight: 700;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--letter-spacing: 0.05em;
+  --text-label-sm--font-weight: 500;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--font-weight: 700;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Base styles for material symbols */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body-md text-body-md antialiased dark:bg-deep-navy dark:text-surface-white transition-colors duration-200;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  /* Premium Blog Image Styles */
+  .prose img {
+    @apply rounded-xl shadow-md border border-outline-variant mx-auto w-full md:w-auto md:max-w-full object-cover transition-transform duration-300 hover:shadow-lg;
+    max-height: 600px;
+  }
+  
+  .prose iframe {
+    @apply w-full aspect-video rounded-xl shadow-sm border border-outline-variant;
+  }
 }

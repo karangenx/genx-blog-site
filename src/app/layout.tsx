@@ -23,7 +23,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "HostLogic Blog",
+  title: "Blog-Gen X Web Hosting",
   description: "Professional High-Performance Hosting Blog",
 };
 

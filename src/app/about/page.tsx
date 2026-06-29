@@ -11,7 +11,7 @@ export default function AboutPage() {
           Empowering the <span className="text-primary">Digital Builders</span>
         </h1>
         <p className="font-quote-accent text-quote-accent max-w-3xl mx-auto text-secondary mb-10">
-          The HostLogic blog is dedicated to providing uncompromising technical depth, architectural insights, and proven strategies for IT professionals scaling modern infrastructure.
+          The Gen X Web Hosting blog is dedicated to providing uncompromising technical depth, architectural insights, and proven strategies for IT professionals scaling modern infrastructure.
         </p>
       </header>
 

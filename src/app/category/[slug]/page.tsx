@@ -70,7 +70,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           <span className="material-symbols-outlined text-primary text-[28px] md:text-[32px] filled" data-icon="category" data-weight="fill">category</span>
           <span className="font-label-sm text-xs md:text-label-sm text-secondary tracking-widest uppercase bg-[#EBF2F7] px-3 py-1 rounded-full">Category Archive</span>
         </div>
-        <h1 className="font-display-lg text-4xl md:text-display-lg text-deep-navy mb-4 md:mb-6">{categoryName}</h1>
+        <h1 className="font-display-lg text-4xl md:text-display-lg text-deep-navy dark:text-surface-white mb-4 md:mb-6">{categoryName}</h1>
         <p className="font-body-lg text-base md:text-body-lg text-on-surface-variant max-w-3xl mx-auto md:mx-0">
           Explore all our articles related to {categoryName}. Deep dives, tutorials, and infrastructure updates.
         </p>
@@ -79,23 +79,23 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       {/* Subcategories Grid */}
       {currentCategory && currentCategory.subcategories && (
         <div className="mb-12">
-          <h2 className="text-xl md:text-2xl font-bold text-deep-navy mb-6">Subcategories in {categoryName}</h2>
+          <h2 className="text-xl md:text-2xl font-bold text-deep-navy dark:text-surface-white mb-6">Subcategories in {categoryName}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {currentCategory.subcategories.map((sub) => (
               <Link
                 key={sub.slug}
                 href={`/category/${sub.slug}`}
-                className="group block p-5 md:p-6 border border-outline-variant rounded-lg bg-white hover:shadow-md hover:border-primary transition-all duration-300"
+                className="group block p-5 md:p-6 border border-outline-variant dark:border-outline rounded-lg bg-white dark:bg-surface-container hover:shadow-md hover:border-primary dark:hover:border-primary transition-all duration-300"
               >
                 <div className="flex items-center gap-4 mb-3">
-                  <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-[#EBF2F7] rounded-full text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                  <div className="w-10 h-10 shrink-0 flex items-center justify-center bg-[#EBF2F7] dark:bg-surface-container-highest rounded-full text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                     <span className="material-symbols-outlined text-xl">{sub.icon}</span>
                   </div>
-                  <h3 className="font-headline-sm text-base md:text-lg font-semibold text-deep-navy line-clamp-1">
+                  <h3 className="font-headline-sm text-base md:text-lg font-semibold text-deep-navy dark:text-surface-white line-clamp-1">
                     {sub.name}
                   </h3>
                 </div>
-                <p className="text-sm text-on-surface-variant line-clamp-2">
+                <p className="text-sm text-on-surface-variant dark:text-secondary-fixed-dim line-clamp-2">
                   {sub.description}
                 </p>
               </Link>
@@ -108,7 +108,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-gutter mb-12 md:mb-section-gap">
         {categoryPosts.length > 0 ? (
           categoryPosts.map((post, index) => (
-            <article key={post.id} className={`${index === 0 ? 'md:col-span-8' : 'md:col-span-4'} bg-surface-white border border-outline-variant rounded-lg overflow-hidden flex flex-col group hover:shadow-xl transition-all duration-300`}>
+            <article key={post.id} className={`${index === 0 ? 'md:col-span-8' : 'md:col-span-4'} bg-surface-white dark:bg-surface-container border border-outline-variant dark:border-outline rounded-lg overflow-hidden flex flex-col group hover:shadow-xl transition-all duration-300`}>
               <Link href={`/blog/${post.slug}`} className={`block relative w-full overflow-hidden bg-surface-container-low ${index === 0 ? 'h-56 md:h-80' : 'h-48 md:h-52'}`}>
                 <div className="bg-cover bg-center w-full h-full transform group-hover:scale-105 transition-transform duration-700" style={{ backgroundImage: `url('${post.imageUrl}')` }}></div>
                 <div className="absolute top-4 left-4">
@@ -119,7 +119,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               </Link>
               <div className="p-5 md:p-6 flex flex-col flex-grow">
                 <Link href={`/blog/${post.slug}`}>
-                  <h2 className={`${index === 0 ? 'font-headline-md md:font-headline-lg text-2xl md:text-headline-lg' : 'font-headline-md text-lg md:text-xl'} text-deep-navy mb-3 md:mb-4 group-hover:text-primary transition-colors`} dangerouslySetInnerHTML={{ __html: post.title }}></h2>
+                  <h2 className={`${index === 0 ? 'font-headline-md md:font-headline-lg text-2xl md:text-headline-lg' : 'font-headline-md text-lg md:text-xl'} text-deep-navy dark:text-surface-white mb-3 md:mb-4 group-hover:text-primary transition-colors`} dangerouslySetInnerHTML={{ __html: post.title }}></h2>
                 </Link>
                 <p className={`font-body-md text-sm md:text-body-md text-on-surface-variant mb-6 ${index === 0 ? 'line-clamp-3' : 'line-clamp-2'}`} dangerouslySetInnerHTML={{ __html: post.excerpt }} />
                 <div className="mt-auto flex items-center justify-between text-secondary">
@@ -135,7 +135,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </article>
           ))
         ) : (
-          <div className="md:col-span-12 py-16 text-center bg-surface-white border border-outline-variant rounded-lg">
+          <div className="md:col-span-12 py-16 text-center bg-surface-white dark:bg-surface-container border border-outline-variant dark:border-outline rounded-lg">
             <span className="material-symbols-outlined text-6xl text-outline-variant mb-4">article</span>
             <p className="text-on-surface-variant font-body-lg text-lg">
               {!currentCategory || currentCategory.subcategories.length === 0 ? "No posts found in this category." : "Select a subcategory above to explore posts."}

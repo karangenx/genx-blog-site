@@ -130,6 +130,17 @@
 }
 
 @layer base {
+  .dark {
+    --color-surface-container: #34495e;
+    --color-surface-container-low: #2a3a4b;
+    --color-surface-container-highest: #3e566e;
+    --color-inverse-surface: #1e293b;
+    --color-outline: #5d7a94;
+    --color-outline-variant: #4b6680;
+    --color-on-surface-variant: #c0d1e1;
+    --color-secondary: #94a3b8;
+  }
+
   body {
     @apply bg-background text-on-surface font-body-md text-body-md antialiased dark:bg-deep-navy dark:text-surface-white transition-colors duration-200;
   }

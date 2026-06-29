@@ -43,13 +43,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 </span>
               </Link>
             </div>
-            <h1 className="font-display-lg text-3xl md:text-display-lg text-deep-navy mb-6 md:mb-8 font-bold leading-tight" dangerouslySetInnerHTML={{ __html: post.title }}></h1>
+            <h1 className="font-display-lg text-3xl md:text-display-lg text-deep-navy dark:text-surface-white mb-6 md:mb-8 font-bold leading-tight" dangerouslySetInnerHTML={{ __html: post.title }}></h1>
             <div className="flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative">
                   <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM" alt="Author" fill className="object-cover" sizes="40px" />
                 </div>
-                <span>By <strong className="text-deep-navy">Gen X Web Hosting</strong></span>
+                <span>By <strong className="text-deep-navy dark:text-surface-white">Gen X Web Hosting</strong></span>
               </div>
               <span className="text-outline hidden sm:inline">•</span>
               <time dateTime={post.date}>{post.date}</time>
@@ -67,23 +67,23 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
           {/* Article Content */}
           <div 
-            className="prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text space-y-6 prose-headings:text-deep-navy prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto"
+            className="prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text dark:text-surface-white space-y-6 prose-headings:text-deep-navy dark:prose-headings:text-surface-white prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto dark:prose-invert"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
           {/* Tags */}
           <div className="mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3">
-            <span className="font-body-md font-semibold text-deep-navy self-center mr-2">Category:</span>
+            <span className="font-body-md font-semibold text-deep-navy dark:text-surface-white self-center mr-2">Category:</span>
             <span className="font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer">{post.category}</span>
           </div>
 
           {/* Author Bio Box */}
-          <div className="mt-12 md:mt-section-gap bg-surface-bright p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm">
+          <div className="mt-12 md:mt-section-gap bg-surface-bright dark:bg-surface-container p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm">
             <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner">
                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst" alt="Author" className="w-full h-full object-cover" />
             </div>
             <div className="text-center md:text-left">
-              <h3 className="font-headline-md text-xl md:text-2xl text-deep-navy mb-2 font-bold">Gen X Web Hosting</h3>
+              <h3 className="font-headline-md text-xl md:text-2xl text-deep-navy dark:text-surface-white mb-2 font-bold">Gen X Web Hosting</h3>
               <p className="font-body-md text-base md:text-body-md text-on-surface-variant mb-4">Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions.</p>
               <a href="https://genxwhosting.com" className="text-primary font-medium hover:underline inline-flex items-center gap-1">
                 Visit Website <span className="material-symbols-outlined text-sm">open_in_new</span>
@@ -94,18 +94,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       </main>
 
       {/* Related Posts Section */}
-      <section className="bg-surface py-12 md:py-section-gap border-t border-outline-variant">
+      <section className="bg-surface dark:bg-transparent py-12 md:py-section-gap border-t border-outline-variant">
         <div className="max-w-container-max mx-auto px-margin-edge">
-          <h2 className="font-headline-lg text-2xl md:text-headline-lg text-deep-navy mb-8 md:mb-10 font-bold">Related Articles</h2>
+          <h2 className="font-headline-lg text-2xl md:text-headline-lg text-deep-navy dark:text-surface-white mb-8 md:mb-10 font-bold">Related Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter">
             {relatedPosts.map(rp => (
-              <Link key={rp.id} href={`/blog/${rp.slug}`} className="block bg-surface-white border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col">
+              <Link key={rp.id} href={`/blog/${rp.slug}`} className="block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col">
                 <div className="h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden">
                   <Image src={rp.imageUrl} alt="Thumbnail" fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 100vw, 33vw" />
                 </div>
                 <div className="p-5 md:p-6 flex flex-col flex-grow">
                   <span className="font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold">{rp.category}</span>
-                  <h3 className="font-headline-md text-lg md:text-xl text-deep-navy mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2" dangerouslySetInnerHTML={{ __html: rp.title }}></h3>
+                  <h3 className="font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2" dangerouslySetInnerHTML={{ __html: rp.title }}></h3>
                   <p className="font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto" dangerouslySetInnerHTML={{ __html: rp.excerpt }} />
                 </div>
               </Link>

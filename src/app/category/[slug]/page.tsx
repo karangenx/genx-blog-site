@@ -40,6 +40,13 @@ export async function generateStaticParams() {
     });
   });
 
+  // Ensure all categories from the Categories page are generated to prevent 404s
+  const additionalCategories = [
+    'hosting-news', 'security', 'hardware', 'cloud', 
+    'tutorials', 'linux', 'windows'
+  ];
+  additionalCategories.forEach(slug => slugs.add(slug));
+
   return Array.from(slugs).map(slug => ({ slug }));
 }
 

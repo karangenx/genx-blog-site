@@ -15,9 +15,6 @@ posts.forEach(post => {
 const newId = (maxId + 1).toString();
 
 const content = `
-<p class="wp-block-paragraph"><strong>Meta Title:</strong> Train an AI Chatbot with Your Business Data | Complete Guide to Nivi Chat</p>
-<p class="wp-block-paragraph"><strong>Meta Description:</strong> Discover how to build an AI chatbot trained on your website, PDFs, YouTube videos, FAQs, and custom data using Nivi Chat. Automate customer support, generate more leads, and grow your business with AI.</p>
-
 <h2 class="wp-block-heading">The Future of Customer Support is AI</h2>
 <p class="wp-block-paragraph">Customer expectations have changed dramatically over the last few years. People no longer want to wait hours—or even minutes—for answers. Whether they're shopping online, booking a service, or simply exploring your website, they expect instant, accurate, and helpful responses at any time of the day.</p>
 <p class="wp-block-paragraph">Unfortunately, many businesses still rely on traditional customer support methods that struggle to keep up. Support teams can only work during business hours, repetitive questions consume valuable time, and missed inquiries often result in lost sales.</p>

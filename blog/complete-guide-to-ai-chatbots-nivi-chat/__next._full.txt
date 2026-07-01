@@ -1,0 +1,186 @@
+1:"$Sreact.fragment"
+2:I[59919,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ThemeProvider"]
+3:I[94376,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[39756,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[37457,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[13642,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+8:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+c:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+e:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+10:I[68027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/_next/static/chunks/3z3ky2g5wmdqa.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/c47649aa31f9e140-s.p.3lxpqujs87tck.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","style"]
+0:{"P":null,"c":["","blog","complete-guide-to-ai-chatbots-nivi-chat"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","complete-guide-to-ai-chatbots-nivi-chat","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3z3ky2g5wmdqa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3rdqn8rx95pw7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1avmajq0_5aub.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"hanken_grotesk_2d2ea67a-module__UgSA_q__variable inter_fe8b9d92-module__LINzvG__variable jetbrains_mono_7d65b77b-module__VxV-Ta__variable h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap","rel":"stylesheet"}]}],["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/_next/static/chunks/067c_6752_jp_.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,null]},null,false,"$@b"]},null,false,"$@b"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$9",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$10",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3z3ky2g5wmdqa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"_M5eLGx6wpaPBh2aIqJeq"}
+11:[]
+b:"$W11"
+12:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"default"]
+13:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],""]
+14:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/067c_6752_jp_.js"],"Image"]
+15:T3cf9,
+<p class="wp-block-paragraph"><strong>Meta Title:</strong> Train an AI Chatbot with Your Business Data | Complete Guide to <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a></p>
+<p class="wp-block-paragraph"><strong>Meta Description:</strong> Discover how to build an AI chatbot trained on your website, PDFs, YouTube videos, FAQs, and custom data using <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a>. Automate customer support, generate more leads, and grow your business with AI.</p>
+
+<h2 class="wp-block-heading">The Future of Customer Support is AI</h2>
+<p class="wp-block-paragraph">Customer expectations have changed dramatically over the last few years. People no longer want to wait hours—or even minutes—for answers. Whether they're shopping online, booking a service, or simply exploring your website, they expect instant, accurate, and helpful responses at any time of the day.</p>
+<p class="wp-block-paragraph">Unfortunately, many businesses still rely on traditional customer support methods that struggle to keep up. Support teams can only work during business hours, repetitive questions consume valuable time, and missed inquiries often result in lost sales.</p>
+<p class="wp-block-paragraph">This is exactly why AI chatbots have become one of the fastest-growing technologies for modern businesses.</p>
+<p class="wp-block-paragraph">Unlike old rule-based chatbots that only respond to predefined commands, AI chatbots understand natural language, learn from your business content, and provide intelligent responses that feel natural and conversational.</p>
+<p class="wp-block-paragraph">With <strong><a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a></strong>, creating an AI chatbot is easier than ever. You don't need coding skills or technical expertise. Simply upload your business knowledge, and your AI assistant is ready to answer customer questions 24/7.</p>
+
+<h2 class="wp-block-heading">What is <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a>?</h2>
+<figure class="wp-block-image size-large" style="margin: 0; padding: 0;"><img src="/images/blog/Live%20Chat%20Widget%20Image.png" alt="Nivi Chat Live Widget" style="max-width:320px;width:100%;height:auto;border-radius:16px;box-shadow:0 25px 50px -12px rgba(0, 0, 0, 0.25);border:1px solid rgba(0,0,0,0.08);margin:48px auto 40px;display:block;transition:transform 0.3s ease;"/></figure>
+<p class="wp-block-paragraph"><a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> is an AI-powered chatbot platform designed to help businesses automate customer support, improve customer engagement, capture leads, and increase conversions.</p>
+<p class="wp-block-paragraph">Instead of building complicated chatbot flows, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> allows you to train your AI using your own business data. Your chatbot learns directly from your website, documents, PDFs, YouTube videos, FAQs, and custom knowledge, allowing it to answer customer questions with confidence and accuracy.</p>
+<p class="wp-block-paragraph">Whether you're a startup, eCommerce store, SaaS company, educational institute, healthcare provider, or enterprise, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> adapts to your business needs.</p>
+
+<h2 class="wp-block-heading">Why Every Business Needs an AI Chatbot</h2>
+<p class="wp-block-paragraph">Businesses receive hundreds of customer inquiries every week. Most of these questions are repetitive:</p>
+<ul class="wp-block-list">
+<li>What are your pricing plans?</li>
+<li>How can I contact support?</li>
+<li>Do you offer refunds?</li>
+<li>Is WhatsApp integration available?</li>
+<li>How can I schedule a demo?</li>
+<li>Which plan is best for me?</li>
+</ul>
+<p class="wp-block-paragraph">Answering the same questions repeatedly wastes valuable time and resources.</p>
+<p class="wp-block-paragraph">An AI chatbot solves this by providing instant, accurate responses 24 hours a day, 7 days a week.</p>
+<p class="wp-block-paragraph">Some of the biggest benefits include:</p>
+<ul class="wp-block-list">
+<li>24/7 customer support</li>
+<li>Faster response times</li>
+<li>Increased customer satisfaction</li>
+<li>Lower operational costs</li>
+<li>Higher conversion rates</li>
+<li>Better lead generation</li>
+<li>Improved customer experience</li>
+</ul>
+
+<h2 class="wp-block-heading">Train Your AI Chatbot Using Your Own Business Data</h2>
+<p class="wp-block-paragraph">The biggest advantage of <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> is its flexible AI training system. Instead of writing hundreds of chatbot responses manually, you simply provide your business knowledge, and the AI learns automatically.</p>
+
+<h3 class="wp-block-heading">Train Using Your Website</h3>
+<p class="wp-block-paragraph">Your website already contains valuable information about your business. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> can automatically learn from your website pages, including:</p>
+<ul class="wp-block-list">
+<li>Home Page</li>
+<li>Services</li>
+<li>Product Pages</li>
+<li>Pricing</li>
+<li>FAQs</li>
+<li>Blog Posts</li>
+<li>Knowledge Base</li>
+<li>Documentation</li>
+</ul>
+<p class="wp-block-paragraph">Once your website is scanned, your AI chatbot uses this information to answer customer questions accurately.</p>
+<p class="wp-block-paragraph">For example:<br>
+<strong>Customer:</strong> Do you offer WhatsApp integration?<br>
+<strong>AI:</strong> Yes, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> supports WhatsApp Business integration on eligible plans.</p>
+<p class="wp-block-paragraph">Training from your website ensures that your chatbot always responds using your latest business information.</p>
+
+<h3 class="wp-block-heading">Upload PDFs and Documents</h3>
+<p class="wp-block-paragraph">Most businesses already have documents containing valuable information. Instead of rewriting everything manually, simply upload your files.</p>
+<p class="wp-block-paragraph">Supported training materials include:</p>
+<ul class="wp-block-list">
+<li>Product Catalogs</li>
+<li>Company Brochures</li>
+<li>User Manuals</li>
+<li>Technical Documentation</li>
+<li>Training Guides</li>
+<li>Policy Documents</li>
+<li>Price Lists</li>
+<li>PDF Files</li>
+<li>DOCX Documents</li>
+<li>TXT Files</li>
+</ul>
+<p class="wp-block-paragraph">The AI reads these documents and understands their content. This means your chatbot can instantly answer questions based on information stored inside your files.</p>
+
+<h3 class="wp-block-heading">Train Using YouTube Videos</h3>
+<p class="wp-block-paragraph">One of the most powerful features inside <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> is YouTube training. Many businesses already have tutorial videos, product demonstrations, webinars, and educational content published on YouTube.</p>
+<p class="wp-block-paragraph">Instead of creating separate documentation, simply paste the YouTube video URL. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> processes the video content and learns from it.</p>
+<p class="wp-block-paragraph">This allows visitors to ask questions related to your videos. Perfect for:</p>
+<ul class="wp-block-list">
+<li>Product Tutorials</li>
+<li>Software Demonstrations</li>
+<li>Online Courses</li>
+<li>Educational Videos</li>
+<li>Webinars</li>
+<li>Customer Training</li>
+<li>Product Walkthroughs</li>
+</ul>
+
+<h3 class="wp-block-heading">Add Frequently Asked Questions (FAQs)</h3>
+<p class="wp-block-paragraph">Every business answers the same questions repeatedly. Instead of answering them manually every day, create a FAQ knowledge base inside <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a>.</p>
+
+<h3 class="wp-block-heading">Create Custom Questions & Answers</h3>
+<p class="wp-block-paragraph">Some business information cannot be found on your website or inside documents. For these cases, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> allows you to manually add custom Questions & Answers.</p>
+<ul class="wp-block-list">
+<li>Shipping policies</li>
+<li>Company policies</li>
+<li>Internal procedures</li>
+<li>Product specifications</li>
+<li>Promotional offers</li>
+<li>Pricing rules</li>
+<li>Return policies</li>
+</ul>
+
+<h2 class="wp-block-heading">Choose the AI Model That Fits Your Business</h2>
+<p class="wp-block-paragraph">Different businesses have different AI requirements. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> supports multiple advanced AI models, allowing you to choose the one that best fits your budget and performance needs. Available models include:</p>
+<ul class="wp-block-list">
+<li>GPT-4o</li>
+<li>GPT-4o Mini</li>
+<li>GPT-4 Turbo</li>
+<li>GPT-3.5 Turbo</li>
+<li>Claude Models</li>
+<li>Gemini Models</li>
+<li>DeepSeek Models</li>
+<li>Custom AI Models</li>
+</ul>
+
+<h2 class="wp-block-heading">Customize Your Chatbot</h2>
+<p class="wp-block-paragraph">Every business has a unique identity. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> lets you fully customize your chatbot so it matches your brand. You can personalize: Chatbot Name, Brand Colors, Welcome Message, Chat Widget Theme, Avatar, Chat Position, Appearance.</p>
+
+<h2 class="wp-block-heading">Deploy Your Chatbot in Minutes</h2>
+<figure class="wp-block-image size-large" style="margin: 0; padding: 0;"><img src="/images/blog/Embed%20and%20Deploy%20Image.png" alt="Embed and Deploy Nivi Chat" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);border:1px solid rgba(0,0,0,0.05);margin:40px auto 32px;display:block;transition:transform 0.3s ease;"/></figure>
+<p class="wp-block-paragraph">Deploying your AI chatbot is incredibly simple. Once your chatbot has been trained, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> generates a small embed code. Simply copy the code and paste it into your website. That's it.</p>
+
+<h2 class="wp-block-heading">WhatsApp Business Integration</h2>
+<figure class="wp-block-image size-large" style="margin: 0; padding: 0;"><img src="/images/blog/WhatsApp%20Integration%20Image.png" alt="WhatsApp Business Integration" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);border:1px solid rgba(0,0,0,0.05);margin:40px auto 32px;display:block;transition:transform 0.3s ease;"/></figure>
+<p class="wp-block-paragraph">Today, billions of people use WhatsApp every day. Instead of limiting customer support to your website, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> allows businesses to extend AI conversations directly to WhatsApp Business.</p>
+
+<h2 class="wp-block-heading">Manage Your Entire Support Team</h2>
+<p class="wp-block-paragraph">Customer support is often handled by multiple employees. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> includes powerful team management features that allow businesses to collaborate efficiently.</p>
+
+<h2 class="wp-block-heading">Capture More Leads Automatically</h2>
+<p class="wp-block-paragraph">Every website visitor represents a potential customer. Instead of allowing visitors to leave anonymously, <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> automatically captures valuable lead information during conversations.</p>
+
+<h2 class="wp-block-heading">Book Appointments Automatically</h2>
+<p class="wp-block-paragraph">Scheduling meetings through emails can be slow and frustrating. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> simplifies the process by allowing customers to book appointments directly through the chatbot.</p>
+
+<h2 class="wp-block-heading">Powerful Dashboard & Analytics</h2>
+<figure class="wp-block-image size-large" style="margin: 0; padding: 0;"><img src="/images/blog/Overview%20Dashboard%20Image.png" alt="Nivi Chat Overview Dashboard" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);border:1px solid rgba(0,0,0,0.05);margin:40px auto 32px;display:block;transition:transform 0.3s ease;"/></figure>
+<p class="wp-block-paragraph">Understanding customer behavior is essential for business growth. <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> provides detailed analytics that help you monitor chatbot performance.</p>
+
+<h2 class="wp-block-heading">Industries That Can Benefit from <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a></h2>
+<p class="wp-block-paragraph"><a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> is designed for businesses across every industry including: E-commerce, SaaS, Healthcare, Education, Real Estate, Agencies, Financial Services.</p>
+
+<h2 class="wp-block-heading">Why Businesses Choose <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a></h2>
+<p class="wp-block-paragraph">Thousands of businesses are adopting AI because it delivers measurable results. Everything you need to build a powerful AI assistant is available in one platform.</p>
+
+<h2 class="wp-block-heading">Final Thoughts</h2>
+<p class="wp-block-paragraph">Artificial Intelligence is no longer the future—it is the present. Businesses that respond quickly, provide accurate information, and remain available around the clock are the ones that earn customer trust and drive long-term growth.</p>
+<p class="wp-block-paragraph"><strong>Ready to Build Your AI Chatbot?</strong> Empower your business with smarter conversations, faster support, and AI-driven customer engagement. Start using <a href="https://nivichat.in" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Nivi Chat</a> today and transform the way you connect with your customers.</p>
+7:[["$","$L12",null,{}],["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L13",null,{"href":"/category/ai-chatbots","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["AI Chatbots",""]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy dark:text-surface-white mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"The Complete Guide to AI Chatbots: Train Your AI with Your Own Data Using Nivi Chat"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$L14",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"style":{"objectFit":"cover"},"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy dark:text-surface-white","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"Jul 1, 2026","children":"Jul 1, 2026"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"8 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$L14",null,{"src":"/images/blog/covernivi.png","alt":"Hero","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text dark:text-surface-white space-y-6 prose-headings:text-deep-navy dark:prose-headings:text-surface-white prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$15"}}],"$L16","$L17"]}]}],"$L18"]
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+16:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy dark:text-surface-white self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"AI Chatbots"}]]}]
+17:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright dark:bg-surface-container p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy dark:text-surface-white mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+18:["$","section",null,{"className":"bg-surface dark:bg-transparent py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy dark:text-surface-white mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L13","1407",{"href":"/blog/nivi-email-smart-ai-powered-business-solution","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"/images/blog/coverniviemail.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Business Email"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Nivi Email: The Smart AI-Powered Business Email Solution for Modern Businesses"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Nivi Email is a modern business email hosting solution designed to help professionals, startups, small businesses, and enterprises communicate more efficiently with the power of artificial intelligence and enterprise-grade security."}}]]}]]}],["$","$L13","458",{"href":"/blog/domain","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"/images/blog/search-engine-marketing-collage-1-1-scaled.jpg","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Domain"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Few Pointers To Help You Select The Ideal Domain Name For Your Website"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"A Domain name is unique. Making the right choice for your website&#8217;s domain name is crucial and can have a big influence on your online presence...."}}]]}]]}],["$","$L13","1011",{"href":"/blog/6-best-wordpress-security-plugins-to-protect-your-site","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":["$L19","$L1a"]}]]}]]}]}]
+19:["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L14",null,{"src":"/images/blog/wordpress.webp","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}]
+1a:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"WordPress"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"6 Best WordPress Security Plugins to Protect Your Site"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"WordPress Security\n..."}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:I[27201,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1avmajq0_5aub.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+a:null
+f:[["$","title","0",{"children":"Blog-Gen X Web Hosting"}],["$","meta","1",{"name":"description","content":"Professional High-Performance Hosting Blog"}],["$","link","2",{"rel":"icon","href":"/icon.png?icon.3hw8dhfq04iwe.png","sizes":"512x512","type":"image/png"}],["$","$L1b","3",{}]]

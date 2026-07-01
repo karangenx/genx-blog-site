@@ -52,6 +52,7 @@ export default function Home() {
               src={featuredPost.imageUrl}
               alt={featuredPost.title}
               fill
+              style={{ objectFit: "cover" }}
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 66vw"
               priority
@@ -97,6 +98,7 @@ export default function Home() {
                       src={post.imageUrl}
                       alt={post.title}
                       fill
+                      style={{ objectFit: "cover" }}
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />

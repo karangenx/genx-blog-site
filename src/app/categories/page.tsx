@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 const allCategories = [
+  { name: 'AI Chatbots', slug: 'ai-chatbots', icon: 'smart_toy', description: 'AI chatbot platforms and implementation.' },
+  { name: 'Business Email', slug: 'business-email', icon: 'mail', description: 'Business email hosting and solutions.' },
   { name: 'Hosting News', slug: 'hosting-news', icon: 'newspaper', description: 'Latest updates and announcements.' },
   { name: 'Security', slug: 'security', icon: 'security', description: 'Best practices to secure your infrastructure.' },
   { name: 'Hardware', slug: 'hardware', icon: 'memory', description: 'Server hardware and performance benchmarks.' },

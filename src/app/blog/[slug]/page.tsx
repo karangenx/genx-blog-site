@@ -47,7 +47,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <div className="flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative">
-                  <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM" alt="Author" fill className="object-cover" sizes="40px" />
+                  <Image src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM" alt="Author" fill style={{ objectFit: "cover" }} className="object-cover" sizes="40px" />
                 </div>
                 <span>By <strong className="text-deep-navy dark:text-surface-white">Gen X Web Hosting</strong></span>
               </div>
@@ -61,7 +61,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           {/* Hero Image */}
           {post.imageUrl && (
             <div className="w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group">
-              <Image src={post.imageUrl} alt="Hero" fill className="object-cover group-hover:scale-105 transition-transform duration-700" priority sizes="(max-width: 1024px) 100vw, 1024px" />
+              <Image src={post.imageUrl} alt="Hero" fill style={{ objectFit: "cover" }} className="object-cover group-hover:scale-105 transition-transform duration-700" priority sizes="(max-width: 1024px) 100vw, 1024px" />
             </div>
           )}
 
@@ -101,7 +101,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {relatedPosts.map(rp => (
               <Link key={rp.id} href={`/blog/${rp.slug}`} className="block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col">
                 <div className="h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden">
-                  <Image src={rp.imageUrl} alt="Thumbnail" fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 100vw, 33vw" />
+                  <Image src={rp.imageUrl} alt="Thumbnail" fill style={{ objectFit: "cover" }} className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 100vw, 33vw" />
                 </div>
                 <div className="p-5 md:p-6 flex flex-col flex-grow">
                   <span className="font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold">{rp.category}</span>

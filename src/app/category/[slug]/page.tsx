@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import postsData from "@/data/posts.json";
+import type { Metadata } from "next";
+
 
 // Define subcategories for specific main categories
 const categoryConfig: Record<string, { subcategories: { name: string; slug: string; icon: string; description: string }[] }> = {
@@ -48,6 +50,23 @@ export async function generateStaticParams() {
   additionalCategories.forEach(slug => slugs.add(slug));
 
   return Array.from(slugs).map(slug => ({ slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const categoryName = slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  const currentCategory = categoryConfig[slug.toLowerCase()];
+  
+  const description = currentCategory?.subcategories?.[0]?.description || `Explore all our articles related to ${categoryName}. Deep dives, tutorials, and infrastructure updates.`;
+
+  return {
+    title: categoryName,
+    description: description,
+    openGraph: {
+      title: categoryName,
+      description: description,
+    },
+  };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {

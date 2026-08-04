@@ -3,11 +3,43 @@ import Image from "next/image";
 import Link from "next/link";
 import postsData from "@/data/posts.json";
 import ReadingProgressBar from "@/components/ReadingProgressBar";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   return postsData.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = postsData.find((p) => p.slug === slug);
+
+  if (!post) {
+    return { title: 'Post Not Found' };
+  }
+
+  // Strip HTML tags for clean description
+  const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '');
+
+  return {
+    title: post.title.replace(/<[^>]*>?/gm, ''),
+    description: cleanExcerpt,
+    openGraph: {
+      title: post.title.replace(/<[^>]*>?/gm, ''),
+      description: cleanExcerpt,
+      type: 'article',
+      publishedTime: post.date,
+      authors: ['Gen X Web Hosting'],
+      images: post.imageUrl ? [{ url: post.imageUrl }] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title.replace(/<[^>]*>?/gm, ''),
+      description: cleanExcerpt,
+      images: post.imageUrl ? [post.imageUrl] : [],
+    }
+  };
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {

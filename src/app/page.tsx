@@ -1,7 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import postsData from "@/data/posts.json";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Latest Posts", // Will be templated to "Latest Posts | Gen X Web Hosting"
+  description: "Read the latest deep dives, tutorials, and infrastructure updates from Gen X Web Hosting.",
+  openGraph: {
+    title: "Latest Posts",
+    description: "Read the latest deep dives, tutorials, and infrastructure updates from Gen X Web Hosting.",
+  },
+};
 export default function Home() {
   const posts = postsData || [];
   

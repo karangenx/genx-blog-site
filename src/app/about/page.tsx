@@ -1,5 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+  openGraph: {
+    title: "About",
+    description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+  },
+};
 
 export default function AboutPage() {
   return (

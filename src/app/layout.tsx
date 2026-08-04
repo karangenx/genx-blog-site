@@ -23,8 +23,25 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Blog-Gen X Web Hosting",
-  description: "Professional High-Performance Hosting Blog",
+  metadataBase: new URL("https://genxwhosting.com"),
+  title: {
+    default: "Blog | Gen X Web Hosting",
+    template: "%s | Gen X Web Hosting",
+  },
+  description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
+  openGraph: {
+    title: "Blog | Gen X Web Hosting",
+    description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
+    url: "https://genxwhosting.com",
+    siteName: "Gen X Web Hosting",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | Gen X Web Hosting",
+    description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
+  },
 };
 
 export default function RootLayout({

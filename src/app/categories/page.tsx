@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const allCategories = [
+  { name: 'Automation', slug: 'automation', icon: 'settings_suggest', description: 'Automate repetitive tasks and connect applications.' },
   { name: 'AI Chatbots', slug: 'ai-chatbots', icon: 'smart_toy', description: 'AI chatbot platforms and implementation.' },
   { name: 'Business Email', slug: 'business-email', icon: 'mail', description: 'Business email hosting and solutions.' },
   { name: 'Hosting News', slug: 'hosting-news', icon: 'newspaper', description: 'Latest updates and announcements.' },
@@ -21,6 +22,7 @@ const allCategories = [
   { name: 'Page Speed', slug: 'page-speed', icon: 'speed', description: 'Optimizing load times and performance.' },
 ];
 
+
 export default function CategoriesPage() {
   return (
     <main className="flex-1 bg-surface-white dark:bg-deep-navy">
@@ -36,8 +38,8 @@ export default function CategoriesPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {allCategories.map((category) => (
-            <Link 
-              key={category.slug} 
+            <Link
+              key={category.slug}
               href={`/category/${category.slug}`}
               className="group block p-6 border border-outline-variant dark:border-on-surface-variant rounded-lg bg-white dark:bg-surface-container hover:shadow-md hover:border-primary dark:hover:border-primary transition-all duration-300"
             >

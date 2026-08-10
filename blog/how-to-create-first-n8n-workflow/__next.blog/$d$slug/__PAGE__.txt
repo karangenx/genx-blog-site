@@ -1,0 +1,478 @@
+1:"$Sreact.fragment"
+2:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0po8hxnqbdubd.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"default"]
+3:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0po8hxnqbdubd.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],""]
+4:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0po8hxnqbdubd.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"Image"]
+d:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0po8hxnqbdubd.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+5:T8cb0,
+<p class="wp-block-paragraph">Want to automate repetitive tasks without spending hours writing custom code?</p>
+<p class="wp-block-paragraph">Learning <strong>how to create your first n8n workflow</strong> is a great place to start.</p>
+<p class="wp-block-paragraph">n8n is a powerful workflow automation platform that allows you to connect applications, APIs, databases, webhooks, and business tools to create automated processes. Its visual workflow builder makes it possible to start building automations without being an advanced programmer.</p>
+<p class="wp-block-paragraph">For example, you could automate a process such as:</p>
+<p class="wp-block-paragraph"><strong>Website Form → n8n → Google Sheets → Email Notification</strong></p>
+<p class="wp-block-paragraph">Instead of manually copying leads from one system to another, n8n can move the information automatically.</p>
+<p class="wp-block-paragraph">In this step-by-step n8n workflow tutorial, you'll learn how to create your first automation, understand triggers and nodes, test your workflow, use external integrations, and eventually run n8n on reliable hosting.</p>
+<p class="wp-block-paragraph">If you want to skip the complexity of installing and maintaining your own server, we'll also explain how <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a></strong> can help you get started faster.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">What Is n8n?</h2>
+<p class="wp-block-paragraph">n8n is a workflow automation platform designed to connect different applications and services.</p>
+<p class="wp-block-paragraph">A workflow consists of individual <strong>nodes</strong> connected together. Each node performs a particular task, such as receiving data, modifying information, calling an API, updating a database, or sending a notification.</p>
+<p class="wp-block-paragraph">A basic automation might look like:</p>
+<p class="wp-block-paragraph"><strong>Trigger → Process Data → Action</strong></p>
+<p class="wp-block-paragraph">For example:</p>
+<p class="wp-block-paragraph"><strong>New Lead → Format Lead Information → Send Email</strong></p>
+<p class="wp-block-paragraph">More advanced workflows can include dozens of steps, conditional logic, API calls, databases, AI services, webhooks, and error-handling processes.</p>
+<p class="wp-block-paragraph">This flexibility makes n8n useful for:</p>
+<ul class="wp-block-list">
+<li>Business process automation</li>
+<li>Lead generation</li>
+<li>CRM automation</li>
+<li>Email marketing</li>
+<li>API integrations</li>
+<li>Data synchronization</li>
+<li>E-commerce automation</li>
+<li>Reporting</li>
+<li>Webhooks</li>
+<li>Notifications</li>
+<li>Content workflows</li>
+<li>AI automation</li>
+</ul>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Why Use n8n for Workflow Automation?</h2>
+<p class="wp-block-paragraph">Many businesses rely on several different applications every day.</p>
+<p class="wp-block-paragraph">You might use one application for your website, another for your CRM, another for email marketing, and another for reporting.</p>
+<p class="wp-block-paragraph">Without automation, employees may have to manually transfer information between these systems.</p>
+<p class="wp-block-paragraph">n8n can connect these systems and automate the repetitive work.</p>
+<p class="wp-block-paragraph">For example:</p>
+<p class="wp-block-paragraph"><strong>Website Form</strong><br/>↓<br/><strong>n8n Webhook</strong><br/>↓<br/><strong>Validate Lead</strong><br/>↓<br/><strong>CRM</strong><br/>↓<br/><strong>Google Sheets</strong><br/>↓<br/><strong>Sales Notification</strong></p>
+<p class="wp-block-paragraph">Once properly configured, this process can run automatically whenever a new lead arrives.</p>
+<p class="wp-block-paragraph">That's the core idea behind <strong>n8n automation</strong>: connect your tools and let workflows handle repetitive processes.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h1 class="wp-block-heading">How to Create Your First n8n Workflow</h1>
+<p class="wp-block-paragraph">Let's build a simple workflow step by step.</p>
+<p class="wp-block-paragraph">For this tutorial, we'll use a <strong>Manual Trigger</strong> and an <strong>Edit Fields</strong> node. This keeps the workflow simple while teaching the fundamentals you'll need for more advanced automations.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 1: Get Access to n8n</h2>
+<p class="wp-block-paragraph">Before creating a workflow, you need access to an n8n installation.</p>
+<p class="wp-block-paragraph">You have several options.</p>
+<p class="wp-block-paragraph">You can:</p>
+<ol class="wp-block-list">
+<li>Install n8n yourself.</li>
+<li>Use an n8n cloud service.</li>
+<li>Choose <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a>.</li>
+</ol>
+<p class="wp-block-paragraph">Self-hosting can provide flexibility, but it also means dealing with server configuration, updates, security, backups, SSL, monitoring, and other infrastructure tasks.</p>
+<p class="wp-block-paragraph">If you want a simpler approach, <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a></strong> can provide a ready-to-use environment.</p>
+<p class="wp-block-paragraph">Gen X Web Hosting offers <strong>pre-installed and configured <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a></strong>, allowing users to focus on building automations instead of spending time setting up the underlying server.</p>
+<p class="wp-block-paragraph">👉 <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Explore Gen X Web Hosting n8n Hosting</a></strong></p>
+<figure class="wp-block-image size-large mt-8 mb-8"><img src="/images/blog/genx_n8n.png" alt="Gen X Web Hosting n8n Hosting" class="rounded-lg shadow-md w-full h-auto"/></figure>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 2: Create a New n8n Workflow</h2>
+<p class="wp-block-paragraph">Once you're inside n8n, open the workflow editor and create a new workflow.</p>
+<p class="wp-block-paragraph">You'll see a visual canvas.</p>
+<p class="wp-block-paragraph">This is where you'll build your automation.</p>
+<p class="wp-block-paragraph">Think of the workflow canvas as a flowchart. Each node represents a task, and the lines between nodes determine how information moves through your automation.</p>
+<p class="wp-block-paragraph">For your first workflow, don't worry about creating anything complicated.</p>
+<p class="wp-block-paragraph">We'll start with just two nodes.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 3: Add a Manual Trigger</h2>
+<p class="wp-block-paragraph">The first node in your workflow determines how the workflow starts.</p>
+<p class="wp-block-paragraph">Click the option to add a node and search for:</p>
+<p class="wp-block-paragraph"><strong>Manual Trigger</strong></p>
+<p class="wp-block-paragraph">Select it and add it to the canvas.</p>
+<p class="wp-block-paragraph">Your workflow now has its first step.</p>
+
+<h3 class="wp-block-heading">Why use a Manual Trigger?</h3>
+<p class="wp-block-paragraph">A Manual Trigger is perfect for learning because you control when the workflow executes.</p>
+<p class="wp-block-paragraph">You don't need to wait for a scheduled event or send a webhook request.</p>
+<p class="wp-block-paragraph">You simply run the workflow whenever you want to test it.</p>
+<p class="wp-block-paragraph">Your workflow currently looks like:</p>
+<p class="wp-block-paragraph"><strong>Manual Trigger</strong></p>
+<p class="wp-block-paragraph">That's all you need for the first step.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 4: Add an Edit Fields Node</h2>
+<p class="wp-block-paragraph">Now let's give our workflow some data.</p>
+<p class="wp-block-paragraph">Add an <strong>Edit Fields</strong> node after the Manual Trigger.</p>
+<p class="wp-block-paragraph">Connect the two nodes:</p>
+<p class="wp-block-paragraph"><strong>Manual Trigger → Edit Fields</strong></p>
+<p class="wp-block-paragraph">Inside the Edit Fields node, create a field such as:</p>
+<pre><code>name = Your Name</code></pre>
+<p class="wp-block-paragraph">Then create another field:</p>
+<pre><code>message = Welcome to my first n8n workflow!</code></pre>
+<p class="wp-block-paragraph">Now your workflow contains information that can be passed to future nodes.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 5: Understand n8n Nodes</h2>
+<p class="wp-block-paragraph">At this point, you've encountered one of the most important concepts in n8n: <strong>nodes</strong>.</p>
+<p class="wp-block-paragraph">A node is essentially one step in your automation.</p>
+<p class="wp-block-paragraph">Different nodes can perform different functions.</p>
+<p class="wp-block-paragraph">For example, you could use nodes to:</p>
+<ul class="wp-block-list">
+<li>Receive webhook requests</li>
+<li>Send emails</li>
+<li>Query databases</li>
+<li>Make HTTP requests</li>
+<li>Modify data</li>
+<li>Filter information</li>
+<li>Connect to applications</li>
+<li>Run JavaScript</li>
+<li>Create notifications</li>
+<li>Process files</li>
+</ul>
+<p class="wp-block-paragraph">A complete workflow is created by connecting these individual tasks.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 6: Execute Your First n8n Workflow</h2>
+<p class="wp-block-paragraph">Now it's time to test your automation.</p>
+<p class="wp-block-paragraph">Click <strong>Execute Workflow</strong>.</p>
+<p class="wp-block-paragraph">n8n will run the workflow from the beginning.</p>
+<p class="wp-block-paragraph">The Manual Trigger will start the process, and the Edit Fields node will execute afterward.</p>
+<p class="wp-block-paragraph">Open the node output to inspect the resulting data.</p>
+<p class="wp-block-paragraph">You should see something similar to:</p>
+<pre><code>name: Your Name
+message: Welcome to my first n8n workflow!</code></pre>
+<p class="wp-block-paragraph">Congratulations!</p>
+<p class="wp-block-paragraph">You've successfully created and executed your first n8n workflow.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 7: Learn How Data Moves Through n8n</h2>
+<p class="wp-block-paragraph">Understanding data flow is essential if you want to become proficient with n8n.</p>
+<p class="wp-block-paragraph">The output from one node can become the input for another.</p>
+<p class="wp-block-paragraph">Imagine a form submits:</p>
+<pre><code>Name: Sarah
+Email: sarah@example.com
+Company: Example Ltd</code></pre>
+<p class="wp-block-paragraph">Your workflow could take that information and:</p>
+<ol class="wp-block-list">
+<li>Receive the submission.</li>
+<li>Validate the email.</li>
+<li>Add the lead to a CRM.</li>
+<li>Store the information in Google Sheets.</li>
+<li>Notify your sales team.</li>
+</ol>
+<p class="wp-block-paragraph">The data can move from node to node automatically.</p>
+<p class="wp-block-paragraph">This is what makes n8n more than a simple task automation tool.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 8: Connect an External Application</h2>
+<p class="wp-block-paragraph">Now that you understand basic nodes, try connecting n8n to another service.</p>
+<p class="wp-block-paragraph">Depending on the application, you'll usually need authentication.</p>
+<p class="wp-block-paragraph">This could involve:</p>
+<ul class="wp-block-list">
+<li>API keys</li>
+<li>OAuth</li>
+<li>Access tokens</li>
+<li>Client IDs</li>
+<li>Client secrets</li>
+</ul>
+<p class="wp-block-paragraph">For example, a workflow might connect n8n to a CRM, spreadsheet, email service, database, or custom API.</p>
+<p class="wp-block-paragraph">When setting up credentials, always protect your authentication information.</p>
+<p class="wp-block-paragraph">Don't publish private API keys in blog posts, screenshots, public repositories, or workflow examples.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 9: Build a Real-World n8n Automation</h2>
+<p class="wp-block-paragraph">Once you understand the basics, build an automation that solves an actual problem.</p>
+<p class="wp-block-paragraph">For example, suppose you receive leads through a website.</p>
+<p class="wp-block-paragraph">You could build:</p>
+<p class="wp-block-paragraph"><strong>Website Form</strong><br/>↓<br/><strong>Webhook</strong><br/>↓<br/><strong>Validate Lead</strong><br/>↓<br/><strong>Google Sheets</strong><br/>↓<br/><strong>CRM</strong><br/>↓<br/><strong>Email Notification</strong></p>
+<p class="wp-block-paragraph">Now every new lead can be processed automatically.</p>
+<p class="wp-block-paragraph">Another example is automated reporting:</p>
+<p class="wp-block-paragraph"><strong>Schedule Trigger</strong><br/>↓<br/><strong>API Request</strong><br/>↓<br/><strong>Process Data</strong><br/>↓<br/><strong>Create Report</strong><br/>↓<br/><strong>Send Email</strong></p>
+<p class="wp-block-paragraph">This is where n8n becomes particularly useful for businesses.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 10: Use Webhooks in n8n</h2>
+<figure class="wp-block-image size-large mt-8 mb-8"><img src="/images/blog/genx_n8n1.png" alt="Use Webhooks in n8n" class="rounded-lg shadow-md w-full h-auto"/></figure>
+<p class="wp-block-paragraph">Webhooks are an important feature for real-time automation.</p>
+<p class="wp-block-paragraph">A webhook allows an external application to send information to your n8n workflow through an HTTP request.</p>
+<p class="wp-block-paragraph">For example:</p>
+<p class="wp-block-paragraph"><strong>E-commerce Store → Webhook → n8n → CRM</strong></p>
+<p class="wp-block-paragraph">When a particular event occurs, n8n can receive the information and start the workflow.</p>
+<p class="wp-block-paragraph">Webhooks can be useful for:</p>
+<ul class="wp-block-list">
+<li>Contact forms</li>
+<li>Online orders</li>
+<li>Payment events</li>
+<li>Lead generation</li>
+<li>SaaS integrations</li>
+<li>Custom applications</li>
+<li>API automation</li>
+</ul>
+<p class="wp-block-paragraph">If you're building business automations, learning how webhooks work is one of the most valuable next steps after mastering basic workflows.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 11: Add Conditions and Workflow Logic</h2>
+<p class="wp-block-paragraph">Not every workflow should follow the same path.</p>
+<p class="wp-block-paragraph">n8n allows you to introduce logic into your automations.</p>
+<p class="wp-block-paragraph">For example, imagine you want to classify leads.</p>
+<p class="wp-block-paragraph">Your workflow could be:</p>
+<p class="wp-block-paragraph"><strong>New Lead → Check Lead Score</strong></p>
+<p class="wp-block-paragraph">Then:</p>
+<p class="wp-block-paragraph"><strong>High Score → Notify Sales</strong></p>
+<p class="wp-block-paragraph"><strong>Low Score → Marketing Follow-Up</strong></p>
+<p class="wp-block-paragraph">This type of conditional automation can help businesses reduce manual decision-making.</p>
+<p class="wp-block-paragraph">You can create workflows that respond differently depending on the information they receive.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 12: Use Schedule Triggers</h2>
+<p class="wp-block-paragraph">Another useful n8n feature is scheduled automation.</p>
+<p class="wp-block-paragraph">Instead of manually executing a workflow, you can configure it to run according to a schedule.</p>
+<p class="wp-block-paragraph">For example:</p>
+<p class="wp-block-paragraph"><strong>Every Morning → Fetch Data → Process Data → Send Report</strong></p>
+<p class="wp-block-paragraph">This could be used for:</p>
+<ul class="wp-block-list">
+<li>Daily reports</li>
+<li>Weekly summaries</li>
+<li>Data synchronization</li>
+<li>Website monitoring</li>
+<li>Automated notifications</li>
+<li>API data collection</li>
+<li>Recurring business tasks</li>
+</ul>
+<p class="wp-block-paragraph">Scheduled workflows are particularly useful for repetitive tasks that don't require human intervention.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 13: Test Your n8n Workflow</h2>
+<p class="wp-block-paragraph">Before activating an automation, test it carefully.</p>
+<p class="wp-block-paragraph">A good workflow development process is:</p>
+<p class="wp-block-paragraph"><strong>Build → Test → Inspect → Fix → Test Again → Activate</strong></p>
+<p class="wp-block-paragraph">Check the output of each node.</p>
+<p class="wp-block-paragraph">If a workflow fails, don't immediately change everything.</p>
+<p class="wp-block-paragraph">Instead, find the node where the problem occurred.</p>
+<p class="wp-block-paragraph">Check:</p>
+<ul class="wp-block-list">
+<li>Input data</li>
+<li>Output data</li>
+<li>Credentials</li>
+<li>Expressions</li>
+<li>API responses</li>
+<li>Required fields</li>
+<li>Node configuration</li>
+</ul>
+<p class="wp-block-paragraph">Testing one step at a time makes troubleshooting much easier.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Step 14: Activate Your Workflow</h2>
+<p class="wp-block-paragraph">Once you've tested the automation and confirmed that everything works correctly, save and activate the workflow.</p>
+<p class="wp-block-paragraph">Before activating it, check:</p>
+<ul class="wp-block-list">
+<li>Are credentials configured?</li>
+<li>Are nodes connected correctly?</li>
+<li>Are expressions correct?</li>
+<li>Is the trigger configured?</li>
+<li>Is sensitive information protected?</li>
+<li>Have you tested realistic input?</li>
+<li>Have you considered what happens if an API fails?</li>
+</ul>
+<p class="wp-block-paragraph">Once you're confident, activate the workflow.</p>
+<p class="wp-block-paragraph">Your automation can now run according to its trigger.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Self-Hosted n8n vs <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a></h2>
+<p class="wp-block-paragraph">If you're planning to use n8n regularly, you'll eventually need to think about hosting.</p>
+
+<h3 class="wp-block-heading">Self-Hosted n8n</h3>
+<p class="wp-block-paragraph">With self-hosting, you manage the infrastructure yourself.</p>
+<p class="wp-block-paragraph">This can provide greater control, but you may also need to manage:</p>
+<ul class="wp-block-list">
+<li>Server setup</li>
+<li>Installation</li>
+<li>Updates</li>
+<li>Security</li>
+<li>SSL</li>
+<li>Backups</li>
+<li>Monitoring</li>
+<li>Resource management</li>
+<li>Troubleshooting</li>
+</ul>
+<p class="wp-block-paragraph">For technically experienced users, this may be appropriate.</p>
+
+<h3 class="wp-block-heading">Managed n8n Hosting</h3>
+<p class="wp-block-paragraph">Managed n8n hosting takes much of the infrastructure responsibility away from you.</p>
+<p class="wp-block-paragraph">Instead of spending time configuring a server, you can start with an environment prepared for n8n.</p>
+<p class="wp-block-paragraph">This can be particularly attractive for:</p>
+<ul class="wp-block-list">
+<li>Small businesses</li>
+<li>Agencies</li>
+<li>Freelancers</li>
+<li>Developers</li>
+<li>Automation consultants</li>
+<li>Startups</li>
+<li>Teams that don't want server administration responsibilities</li>
+</ul>
+<p class="wp-block-paragraph">Gen X Web Hosting provides <strong>managed n8n hosting with n8n pre-installed and configured</strong>. Its hosting offering also highlights features such as managed updates, OS security patches, backups, SSL, isolated environments, and dedicated resources.</p>
+<p class="wp-block-paragraph"><strong>Ready to run n8n without the server-management headache?</strong></p>
+<p class="wp-block-paragraph">👉 <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer">Explore <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> n8n Hosting</a></strong></p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Why Choose <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> for n8n?</h2>
+<p class="wp-block-paragraph">Choosing where to host your automation platform matters.</p>
+<p class="wp-block-paragraph">If you're building workflows for a business, your n8n environment needs to be reliable and accessible.</p>
+<p class="wp-block-paragraph">Gen X Web Hosting's <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> is designed for users who want a ready-to-use environment rather than configuring everything manually.</p>
+<p class="wp-block-paragraph">Key benefits highlighted by <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> include:</p>
+<ul class="wp-block-list">
+<li>Pre-installed n8n</li>
+<li>Configured hosting environment</li>
+<li>Managed n8n updates</li>
+<li>OS security patches</li>
+<li>Backups</li>
+<li>SSL</li>
+<li>Dedicated resources</li>
+<li>Isolated environment</li>
+<li>Unlimited workflows and executions according to the hosting offering</li>
+<li>Support</li>
+</ul>
+<p class="wp-block-paragraph">The company also offers a <strong>free live demo</strong>, allowing prospective customers to experience the n8n environment before choosing a hosting plan.</p>
+
+<h3 class="wp-block-heading">Try <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> Before You Commit</h3>
+<p class="wp-block-paragraph">If you're unsure whether <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a> is right for you, testing a live environment can be a useful first step.</p>
+<p class="wp-block-paragraph">👉 <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer">Visit <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> and explore the <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> live demo</a></strong></p>
+<p class="wp-block-paragraph">You can see how the service works and decide whether it fits your automation requirements.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">What Can You Automate With n8n?</h2>
+<p class="wp-block-paragraph">Once you've created your first workflow, the possibilities become much broader.</p>
+
+<h3 class="wp-block-heading">Lead Generation</h3>
+<p class="wp-block-paragraph"><strong>Website Form → n8n → CRM → Sales Notification</strong></p>
+<p class="wp-block-paragraph">Automatically process incoming leads and notify your sales team.</p>
+
+<h3 class="wp-block-heading">Email Automation</h3>
+<p class="wp-block-paragraph"><strong>New Subscriber → n8n → Email Platform → Welcome Sequence</strong></p>
+<p class="wp-block-paragraph">Create automated communication workflows.</p>
+
+<h3 class="wp-block-heading">E-commerce Automation</h3>
+<p class="wp-block-paragraph"><strong>New Order → n8n → Inventory → CRM → Notification</strong></p>
+<p class="wp-block-paragraph">Connect different parts of your e-commerce operation.</p>
+
+<h3 class="wp-block-heading">Data Synchronization</h3>
+<p class="wp-block-paragraph"><strong>Application A → n8n → Transform Data → Application B</strong></p>
+<p class="wp-block-paragraph">Keep information synchronized between systems.</p>
+
+<h3 class="wp-block-heading">Reporting</h3>
+<p class="wp-block-paragraph"><strong>Schedule → API → Process Data → Spreadsheet → Email</strong></p>
+<p class="wp-block-paragraph">Generate recurring reports automatically.</p>
+
+<h3 class="wp-block-heading">AI Automation</h3>
+<p class="wp-block-paragraph">n8n can also be used as part of AI-powered workflows, allowing businesses to connect AI services with APIs, databases, CRMs, communication tools, and internal processes.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">7 Tips for Building Better n8n Workflows</h2>
+
+<h3 class="wp-block-heading">1. Start Small</h3>
+<p class="wp-block-paragraph">Don't build a complicated workflow immediately.</p>
+<p class="wp-block-paragraph">Start with three or four nodes.</p>
+
+<h3 class="wp-block-heading">2. Give Nodes Descriptive Names</h3>
+<p class="wp-block-paragraph">Use names such as <strong>"Check Lead Score"</strong> instead of leaving every node with a generic name.</p>
+
+<h3 class="wp-block-heading">3. Test Frequently</h3>
+<p class="wp-block-paragraph">Don't wait until the entire workflow is finished before testing.</p>
+
+<h3 class="wp-block-heading">4. Inspect Your Data</h3>
+<p class="wp-block-paragraph">When something doesn't work, check the previous node's output.</p>
+
+<h3 class="wp-block-heading">5. Protect Credentials</h3>
+<p class="wp-block-paragraph">Keep API keys, passwords, and tokens private.</p>
+
+<h3 class="wp-block-heading">6. Plan Your Workflow First</h3>
+<p class="wp-block-paragraph">Before adding nodes, write the process in plain language.</p>
+<p class="wp-block-paragraph">For example:</p>
+<p class="wp-block-paragraph"><strong>Receive Lead → Validate → Store → Notify</strong></p>
+<p class="wp-block-paragraph">Then turn each step into a node.</p>
+
+<h3 class="wp-block-heading">7. Choose Reliable <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a></h3>
+<p class="wp-block-paragraph">If your workflows are important to your business, your hosting environment matters.</p>
+<p class="wp-block-paragraph">A <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a> provider can help reduce the infrastructure workload so you can focus on automation.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Your First n8n Workflow Is Just the Beginning</h2>
+<p class="wp-block-paragraph">Learning <strong>how to create your first n8n workflow</strong> is only the first step.</p>
+<p class="wp-block-paragraph">Once you've mastered triggers, nodes, data mapping, credentials, webhooks, conditions, and scheduled workflows, you can start creating automations that handle real business processes.</p>
+<p class="wp-block-paragraph">The easiest way to learn is to build something useful.</p>
+<p class="wp-block-paragraph">Start with a simple repetitive task.</p>
+<p class="wp-block-paragraph">Automate it.</p>
+<p class="wp-block-paragraph">Test it.</p>
+<p class="wp-block-paragraph">Then gradually add more functionality.</p>
+<p class="wp-block-paragraph">If you don't want to spend time installing and maintaining your own n8n server, consider managed hosting.</p>
+<p class="wp-block-paragraph"><strong>Gen X Web Hosting provides <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> with a pre-installed and configured environment, managed updates, security-related maintenance, backups, SSL, dedicated resources, and a live demo.</strong></p>
+
+<h3 class="wp-block-heading">Ready to Start Your n8n Automation Journey?</h3>
+<p class="wp-block-paragraph">Don't spend hours configuring a server before you've even built your first workflow.</p>
+<p class="wp-block-paragraph">Try the <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> n8n environment and see how <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a> can simplify your automation setup.</p>
+<p class="wp-block-paragraph">👉 <strong><a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer">Explore <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> & Try the Free Live Demo</a></strong></p>
+<p class="wp-block-paragraph">👉 <strong><a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Visit Gen X Web Hosting</a></strong></p>
+<p class="wp-block-paragraph">Build your workflow. Automate repetitive work. Let your infrastructure take care of itself.</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Frequently Asked Questions About n8n</h2>
+
+<h3 class="wp-block-heading">1. What is n8n workflow automation?</h3>
+<p class="wp-block-paragraph">n8n workflow automation is a way of connecting different applications, APIs, databases, and services so that repetitive tasks can be performed automatically. An n8n workflow consists of connected nodes that execute specific actions.</p>
+
+<h3 class="wp-block-heading">2. How do I create my first n8n workflow?</h3>
+<p class="wp-block-paragraph">Start by opening an n8n instance, creating a new workflow, adding a trigger such as Manual Trigger, adding an action node, connecting the nodes, and executing the workflow. Once you understand the basics, you can add APIs, webhooks, schedules, conditions, and external applications.</p>
+
+<h3 class="wp-block-heading">3. Is n8n suitable for beginners?</h3>
+<p class="wp-block-paragraph">Yes. n8n's visual workflow editor makes it possible to create basic automations without advanced programming knowledge. Beginners can start with simple workflows and gradually learn more advanced features.</p>
+
+<h3 class="wp-block-heading">4. Do I need coding experience to use n8n?</h3>
+<p class="wp-block-paragraph">No. Many workflows can be created through n8n's visual interface. Coding knowledge can be helpful for advanced data processing and custom logic, but it isn't required for basic workflow automation.</p>
+
+<h3 class="wp-block-heading">5. What is <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a>?</h3>
+<p class="wp-block-paragraph">n8n hosting provides a server environment where your n8n instance can run continuously. With <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a>, the provider may handle infrastructure tasks such as installation, updates, security maintenance, backups, and server configuration.</p>
+
+<h3 class="wp-block-heading">6. What is <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a>?</h3>
+<p class="wp-block-paragraph">Managed n8n hosting is a hosting service where the provider takes care of much of the technical infrastructure required to operate n8n. This allows users to focus on creating and running workflows instead of managing the underlying server.</p>
+
+<h3 class="wp-block-heading">7. Can I self-host n8n?</h3>
+<p class="wp-block-paragraph">Yes. n8n can be self-hosted, but you'll be responsible for managing the server environment, updates, security, backups, SSL, and other infrastructure requirements.</p>
+
+<h3 class="wp-block-heading">8. Does <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> offer <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a>?</h3>
+<p class="wp-block-paragraph">Yes. <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> offers a <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a> service with n8n pre-installed and configured. The service also highlights features such as managed updates, security patches, backups, SSL, and dedicated resources.</p>
+
+<h3 class="wp-block-heading">9. Does <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> offer an n8n live demo?</h3>
+<p class="wp-block-paragraph">Yes. <a href="https://genxwhosting.com/" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> provides a live demo for its <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">n8n hosting</a> service, allowing prospective customers to explore the environment before selecting a hosting solution.</p>
+
+<h3 class="wp-block-heading">10. Who should use <a href="https://genxwhosting.com/pages/n8n-hosting.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">managed n8n hosting</a>?</h3>
+<p class="wp-block-paragraph">Managed n8n hosting can be useful for businesses, agencies, developers, freelancers, startups, and automation teams that want to use n8n without handling all of the underlying server-management tasks themselves.</p>
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L3",null,{"href":"/category/automation","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["Automation",""]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy dark:text-surface-white mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"How to Create Your First n8n Workflow: Step-by-Step Guide for Beginners"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$L4",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"style":{"objectFit":"cover"},"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy dark:text-surface-white","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"Aug 10, 2026","children":"Aug 10, 2026"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"17 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$L4",null,{"src":"/images/blog/n8n.png","alt":"Hero","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text dark:text-surface-white space-y-6 prose-headings:text-deep-navy dark:prose-headings:text-surface-white prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6","$L7"]}]}],"$L8"],["$L9"],"$La"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"xtjrMvRBDtodmaO-TnDPJ"}
+6:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy dark:text-surface-white self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"Automation"}]]}]
+7:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright dark:bg-surface-container p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy dark:text-surface-white mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+8:["$","section",null,{"className":"bg-surface dark:bg-transparent py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy dark:text-surface-white mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L3","1409",{"href":"/blog/n8n-vs-zapier-self-hosting-saves-money","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L4",null,{"src":"/images/blog/n8n_vs_zap.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Web Hosting Tips"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"n8n vs Zapier: Why Self-Hosting Saves Money (And When It Makes Sense)"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Discover the differences between n8n and Zapier. Learn why self-hosting n8n on a VPS from Gen X Web Hosting can save you thousands of dollars while giving you advanced workflow automation capabilities."}}]]}]]}],["$","$L3","1408",{"href":"/blog/best-cheap-web-hosting-india-2026","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L4",null,{"src":"/images/blog/Cheap_Hosting.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Hosting News"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Best Cheap Web Hosting in India 2026: Affordable & Reliable Picks for Every Budget"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Compare the best cheap web hosting in India for 2026 — real prices, features & who each plan suits. Find affordable, reliable hosting for your budget."}}]]}]]}],["$","$L3","1407",{"href":"/blog/nivi-email-smart-ai-powered-business-solution","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":["$Lb","$Lc"]}]]}]]}]}]
+9:["$","script","script-0",{"src":"/_next/static/chunks/15bnz8wmddiqu.js","async":true}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$L4",null,{"src":"/images/blog/coverniviemail.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}]
+c:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Business Email"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Nivi Email: The Smart AI-Powered Business Email Solution for Modern Businesses"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Nivi Email is a modern business email hosting solution designed to help professionals, startups, small businesses, and enterprises communicate more efficiently with the power of artificial intelligence and enterprise-grade security."}}]]}]
+f:null

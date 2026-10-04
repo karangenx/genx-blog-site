@@ -19,15 +19,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return { title: 'Post Not Found' };
   }
 
-  // Strip HTML tags for clean description
-  const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '');
+  // Strip HTML tags for clean title and description
+  const cleanTitle = post.title.replace(/<[^>]*>?/gm, '').trim();
+  const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
+  const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
 
   return {
-    title: post.title.replace(/<[^>]*>?/gm, ''),
+    title: cleanTitle,
     description: cleanExcerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
-      title: post.title.replace(/<[^>]*>?/gm, ''),
+      title: cleanTitle,
       description: cleanExcerpt,
+      url: canonicalUrl,
       type: 'article',
       publishedTime: post.date,
       authors: ['Gen X Web Hosting'],
@@ -35,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title.replace(/<[^>]*>?/gm, ''),
+      title: cleanTitle,
       description: cleanExcerpt,
       images: post.imageUrl ? [post.imageUrl] : [],
     }
@@ -61,8 +67,44 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   // Related posts (fetching latest for now)
   const relatedPosts = postsData.filter((p) => p.slug !== post.slug).slice(0, 3);
 
+  const cleanTitle = post.title.replace(/<[^>]*>?/gm, '').trim();
+  const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
+  const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "headline": cleanTitle,
+    "description": cleanExcerpt,
+    "datePublished": post.date,
+    "dateModified": post.date,
+    ...(post.imageUrl ? { "image": [post.imageUrl] } : {}),
+    "author": {
+      "@type": "Organization",
+      "name": "Gen X Web Hosting",
+      "url": "https://genxwhosting.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Gen X Web Hosting",
+      "url": "https://genxwhosting.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://genxwhosting.com/templates/genx/img/theme/logo.png"
+      }
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <ReadingProgressBar />
       <main className="flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap">
         <article className="max-w-3xl mx-auto">

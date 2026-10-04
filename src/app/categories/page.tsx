@@ -23,6 +23,21 @@ const allCategories = [
 ];
 
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Technical Categories",
+  description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
+  alternates: {
+    canonical: "https://blog.genxwhosting.com/categories/",
+  },
+  openGraph: {
+    title: "Technical Categories | Gen X Web Hosting Blog",
+    description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
+    url: "https://blog.genxwhosting.com/categories/",
+  },
+};
+
 export default function CategoriesPage() {
   return (
     <main className="flex-1 bg-surface-white dark:bg-deep-navy">

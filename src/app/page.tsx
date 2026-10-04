@@ -4,11 +4,15 @@ import postsData from "@/data/posts.json";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Latest Posts", // Will be templated to "Latest Posts | Gen X Web Hosting"
-  description: "Read the latest deep dives, tutorials, and infrastructure updates from Gen X Web Hosting.",
+  title: "Gen X Web Hosting Blog",
+  description: "Guides and product updates on hosting, DNS, SSL, email, and AI tools.",
+  alternates: {
+    canonical: "https://blog.genxwhosting.com/",
+  },
   openGraph: {
-    title: "Latest Posts",
-    description: "Read the latest deep dives, tutorials, and infrastructure updates from Gen X Web Hosting.",
+    title: "Gen X Web Hosting Blog",
+    description: "Guides and product updates on hosting, DNS, SSL, email, and AI tools.",
+    url: "https://blog.genxwhosting.com/",
   },
 };
 export default function Home() {
@@ -54,6 +58,15 @@ export default function Home() {
     <main className="flex-grow w-full max-w-container-max mx-auto px-margin-edge py-12 md:py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-12 md:gap-gutter">
       {/* Primary Column (Articles) */}
       <div className="lg:col-span-8 flex flex-col gap-12 md:gap-section-gap">
+        <header className="border-b border-outline-variant pb-6 mb-2">
+          <h1 className="font-headline-lg text-3xl md:text-4xl text-deep-navy dark:text-surface-white font-extrabold tracking-tight">
+            Gen X Web Hosting Blog
+          </h1>
+          <p className="font-body-lg text-base md:text-lg text-on-surface-variant dark:text-secondary-fixed-dim mt-2">
+            Guides and product updates on hosting, DNS, SSL, email, and AI tools.
+          </p>
+        </header>
+
         {/* Hero Article */}
         <article className="bg-surface-white dark:bg-surface-container border border-outline-variant dark:border-outline rounded-lg overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300">
           <Link href={`/blog/${featuredPost.slug}`} className="h-56 md:h-96 w-full bg-surface-container-low dark:bg-surface-container-highest relative cursor-pointer block overflow-hidden">
@@ -81,8 +94,8 @@ export default function Home() {
               </span>
             </div>
             <Link href={`/blog/${featuredPost.slug}`}>
-              <h1 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-deep-navy font-bold hover:text-primary transition-colors cursor-pointer" dangerouslySetInnerHTML={{ __html: featuredPost.title }}>
-              </h1>
+              <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-deep-navy dark:text-surface-white font-bold hover:text-primary transition-colors cursor-pointer" dangerouslySetInnerHTML={{ __html: featuredPost.title }}>
+              </h2>
             </Link>
             <p className="font-body-lg text-base md:text-body-lg text-on-surface-variant line-clamp-3" dangerouslySetInnerHTML={{ __html: featuredPost.excerpt }} />
             <Link href={`/blog/${featuredPost.slug}`} className="text-primary font-body-md text-body-md font-semibold mt-2 md:mt-4 hover:underline flex items-center gap-1 group w-max">

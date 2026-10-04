@@ -3,11 +3,15 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Us",
   description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+  alternates: {
+    canonical: "https://blog.genxwhosting.com/about/",
+  },
   openGraph: {
-    title: "About",
+    title: "About Us | Gen X Web Hosting",
     description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+    url: "https://blog.genxwhosting.com/about/",
   },
 };
 

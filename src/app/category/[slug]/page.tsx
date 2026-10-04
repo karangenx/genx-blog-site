@@ -59,12 +59,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   
   const description = currentCategory?.subcategories?.[0]?.description || `Explore all our articles related to ${categoryName}. Deep dives, tutorials, and infrastructure updates.`;
 
+  const canonicalUrl = `https://blog.genxwhosting.com/category/${slug}/`;
+
   return {
     title: categoryName,
     description: description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
-      title: categoryName,
+      title: `${categoryName} | Gen X Web Hosting Blog`,
       description: description,
+      url: canonicalUrl,
     },
   };
 }

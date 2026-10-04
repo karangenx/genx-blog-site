@@ -23,24 +23,24 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://genxwhosting.com"),
+  metadataBase: new URL("https://blog.genxwhosting.com"),
   title: {
-    default: "Blog | Gen X Web Hosting",
+    default: "Gen X Web Hosting Blog",
     template: "%s | Gen X Web Hosting",
   },
-  description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
+  description: "Guides and product updates on hosting, DNS, SSL, email, and AI tools from Gen X Web Hosting.",
   openGraph: {
-    title: "Blog | Gen X Web Hosting",
-    description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
-    url: "https://genxwhosting.com",
-    siteName: "Gen X Web Hosting",
+    title: "Gen X Web Hosting Blog",
+    description: "Guides and product updates on hosting, DNS, SSL, email, and AI tools from Gen X Web Hosting.",
+    url: "https://blog.genxwhosting.com",
+    siteName: "Gen X Web Hosting Blog",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog | Gen X Web Hosting",
-    description: "Professional High-Performance Hosting Blog dedicated to technical depth, architectural insights, and proven strategies for IT professionals.",
+    title: "Gen X Web Hosting Blog",
+    description: "Guides and product updates on hosting, DNS, SSL, email, and AI tools from Gen X Web Hosting.",
   },
 };
 

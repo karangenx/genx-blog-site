@@ -1,5 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Technical Categories",
+  description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
+  alternates: {
+    canonical: "https://blog.genxwhosting.com/categories/",
+  },
+  openGraph: {
+    title: "Technical Categories | Gen X Web Hosting Blog",
+    description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
+    url: "https://blog.genxwhosting.com/categories/",
+  },
+};
 
 const allCategories = [
   { name: 'Automation', slug: 'automation', icon: 'settings_suggest', description: 'Automate repetitive tasks and connect applications.' },
@@ -21,22 +35,6 @@ const allCategories = [
   { name: 'Web Hosting Tips', slug: 'web-hosting-tips', icon: 'tips_and_updates', description: 'Advice for managing web hosting.' },
   { name: 'Page Speed', slug: 'page-speed', icon: 'speed', description: 'Optimizing load times and performance.' },
 ];
-
-
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: "Technical Categories",
-  description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
-  alternates: {
-    canonical: "https://blog.genxwhosting.com/categories/",
-  },
-  openGraph: {
-    title: "Technical Categories | Gen X Web Hosting Blog",
-    description: "Browse hosting, server, domain, security, and automation categories on the Gen X Web Hosting blog.",
-    url: "https://blog.genxwhosting.com/categories/",
-  },
-};
 
 export default function CategoriesPage() {
   return (

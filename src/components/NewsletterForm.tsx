@@ -1,71 +1,29 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
-  const [honey, setHoney] = useState('');
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState<{
-    type: 'success' | 'error' | null;
-    message: string;
-  }>({ type: null, message: '' });
+  const [submitted, setSubmitted] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    if (honey) {
-      // Bot detected via honeypot
-      return;
-    }
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    // Check if email is valid
+    if (!email) return;
 
     setLoading(true);
-    setStatus({ type: null, message: '' });
 
-    try {
-      const payload: Record<string, string> = {
-        listId: '3b3434a6-57ea-424f-a0a0-c985a61665ab',
-        tenantId: 'fef82499-defd-4162-91e2-da9a06fa6d60',
-        redirect: 'false',
-        _honey: '',
-        email: email.trim(),
-      };
-
-      if (firstName.trim()) {
-        payload.firstName = firstName.trim();
-      }
-
-      const res = await fetch('https://nivipulse.in/api/v1/public/subscribe', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(payload),
-      });
-
-      const result = await res.json();
-
-      if (result.success) {
-        setStatus({
-          type: 'success',
-          message: result.doubleOptIn
-            ? 'Please check your email to confirm your subscription!'
-            : 'Success! You are now subscribed to our updates.',
-        });
-        setEmail('');
-        setFirstName('');
-      } else {
-        throw new Error(result.message || 'Subscription failed. Please try again.');
-      }
-    } catch (err: any) {
-      setStatus({
-        type: 'error',
-        message: err.message || 'Something went wrong. Please try again.',
-      });
-    } finally {
+    // Let the native HTML form submit to the hidden iframe.
+    // This avoids browser CORS restrictions on client-side fetch()
+    // while keeping the user seamlessly on the same page.
+    setTimeout(() => {
       setLoading(false);
-    }
+      setSubmitted(true);
+      setEmail('');
+      setFirstName('');
+    }, 1200);
   };
 
   return (
@@ -82,29 +40,44 @@ export default function NewsletterForm() {
         Subscribe to receive deep-dive technical articles, infrastructure updates, and exclusive hosting insights delivered directly to your inbox.
       </p>
 
-      {status.type === 'success' ? (
+      {/* Hidden iframe target for seamless background submission without page reload */}
+      <iframe
+        name="nvp-hidden-iframe"
+        id="nvp-hidden-iframe"
+        className="hidden"
+        style={{ display: 'none' }}
+        title="Subscription Target"
+      />
+
+      {submitted ? (
         <div className="p-4 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200 text-sm text-center">
-          <p className="font-semibold mb-1">🎉 Thank you!</p>
-          <p>{status.message}</p>
+          <p className="font-semibold mb-1">🎉 Thank you for subscribing!</p>
+          <p>Please check your inbox to confirm your subscription or view the latest updates.</p>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-          {/* Honeypot anti-spam field */}
-          <div className="hidden" aria-hidden="true">
-            <input
-              type="text"
-              name="_honey"
-              tabIndex={-1}
-              autoComplete="off"
-              value={honey}
-              onChange={(e) => setHoney(e.target.value)}
-            />
+        <form
+          ref={formRef}
+          action="https://nivipulse.in/api/v1/public/subscribe"
+          method="POST"
+          target="nvp-hidden-iframe"
+          onSubmit={handleSubmit}
+          className="flex flex-col gap-3"
+        >
+          {/* Required Nivi Pulse Hidden Fields */}
+          <input type="hidden" name="listId" value="3b3434a6-57ea-424f-a0a0-c985a61665ab" />
+          <input type="hidden" name="tenantId" value="fef82499-defd-4162-91e2-da9a06fa6d60" />
+          <input type="hidden" name="redirect" value="false" />
+          
+          {/* Honeypot field for anti-spam */}
+          <div className="hidden" style={{ display: 'none' }}>
+            <input type="text" name="_honey" defaultValue="" tabIndex={-1} autoComplete="off" />
           </div>
 
           <input
             className="w-full bg-surface-container-lowest dark:bg-inverse-surface border border-outline text-on-surface dark:text-surface-white rounded p-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent font-body-md placeholder:text-secondary transition-all text-sm"
             placeholder="First Name (optional)"
             type="text"
+            name="firstName"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
             disabled={loading}
@@ -115,16 +88,11 @@ export default function NewsletterForm() {
             placeholder="Enter your email address *"
             required
             type="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             disabled={loading}
           />
-
-          {status.type === 'error' && (
-            <p className="text-red-600 dark:text-red-400 text-xs font-medium text-center">
-              {status.message}
-            </p>
-          )}
 
           <button
             className="w-full bg-primary hover:bg-primary-container text-white font-body-md font-medium py-3 rounded transition-colors duration-200 shadow-sm hover:shadow active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed"

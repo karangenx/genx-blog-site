@@ -71,7 +71,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
   const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
 
-  const articleJsonLd = {
+  const articleJsonLd: any = {
     "@context": "https://schema.org",
     "@type": "Article",
     "mainEntityOfPage": {
@@ -99,12 +99,73 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     }
   };
 
+  // Extract FAQ items for FAQPage schema markup
+  const extractFaqs = (content: string) => {
+    const faqs: Array<{ '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }> = [];
+    const faqHeadingIndex = content.search(/<h[23][^>]*>(?:.*?(?:Frequently Asked Questions|FAQ).*?)<\/h[23]>/i);
+    if (faqHeadingIndex === -1) return faqs;
+
+    const faqSub = content.substring(faqHeadingIndex);
+
+    // Pattern 1: <h3>Question?</h3> <p>Answer</p>
+    const h3Regex = /<h3[^>]*>(.*?)<\/h3>\s*<p[^>]*>(.*?)<\/p>/gi;
+    let match;
+    while ((match = h3Regex.exec(faqSub)) !== null) {
+      const q = match[1].replace(/<[^>]*>?/gm, '').trim();
+      const a = match[2].replace(/<[^>]*>?/gm, '').trim();
+      if (q && a && (q.endsWith('?') || /^(what|how|can|is|why|do|does|who|where|which)/i.test(q) || /^\d+\./.test(q))) {
+        faqs.push({
+          '@type': 'Question',
+          name: q.replace(/^\d+\.\s*/, ''),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: a
+          }
+        });
+      }
+    }
+
+    // Pattern 2: <p><strong>Question?</strong><br>Answer</p>
+    if (faqs.length === 0) {
+      const strongRegex = /<p[^>]*><strong>(.*?\?.*?)<\/strong>\s*(?:<br\s*\/?>)?\s*([\s\S]*?)<\/p>/gi;
+      while ((match = strongRegex.exec(faqSub)) !== null) {
+        const q = match[1].replace(/<[^>]*>?/gm, '').trim();
+        const a = match[2].replace(/<[^>]*>?/gm, '').trim();
+        if (q && a) {
+          faqs.push({
+            '@type': 'Question',
+            name: q,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: a
+            }
+          });
+        }
+      }
+    }
+
+    return faqs;
+  };
+
+  const faqs = extractFaqs(post.content);
+  const faqJsonLd = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <ReadingProgressBar />
       <main className="flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap">
         <article className="max-w-3xl mx-auto">

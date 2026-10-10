@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import postsData from "@/data/posts.json";
 import type { Metadata } from "next";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
   title: "Gen X Web Hosting Blog",
@@ -154,30 +155,7 @@ export default function Home() {
       {/* Secondary Column (Sidebar) */}
       <aside className="lg:col-span-4 flex flex-col gap-8 md:gap-gutter">
         {/* Newsletter Signup */}
-        <div className="bg-surface-white dark:bg-surface-container border border-outline-variant dark:border-outline rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="material-symbols-outlined text-primary text-3xl" data-icon="mail">mail</span>
-            <h3 className="font-headline-md text-xl font-bold text-deep-navy dark:text-surface-white">System Updates</h3>
-          </div>
-          <p className="font-body-md text-on-surface-variant dark:text-secondary-fixed-dim mb-6 text-sm">
-            Subscribe to receive deep-dive technical articles, infrastructure updates, and exclusive hosting insights delivered directly to your inbox.
-          </p>
-          <form className="flex flex-col gap-3">
-            <input
-              className="w-full bg-surface-container-lowest dark:bg-inverse-surface border border-outline text-on-surface dark:text-surface-white rounded p-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent font-body-md placeholder:text-secondary transition-all"
-              placeholder="Enter your email address"
-              required
-              type="email"
-            />
-            <button
-              className="w-full bg-primary hover:bg-primary-container text-white font-body-md font-medium py-3 rounded transition-colors duration-200 shadow-sm hover:shadow active:scale-95"
-              type="button"
-            >
-              Subscribe Now
-            </button>
-            <p className="font-body-md text-xs text-secondary text-center mt-2">We respect your inbox. No spam.</p>
-          </form>
-        </div>
+        <NewsletterForm />
 
         {/* Sticky Sidebar Content */}
         <div className="sticky top-24 flex flex-col gap-8 md:gap-gutter">

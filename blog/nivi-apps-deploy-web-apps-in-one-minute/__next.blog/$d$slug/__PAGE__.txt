@@ -1,0 +1,238 @@
+1:"$Sreact.fragment"
+8:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0gyyv_pxpq42f.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"default"]
+9:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0gyyv_pxpq42f.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],""]
+a:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0gyyv_pxpq42f.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"Image"]
+10:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/0gyyv_pxpq42f.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+2:T940,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need to know Docker to use Nivi Apps?","acceptedAnswer":{"@type":"Answer","text":"No. Docker knowledge is completely optional. When you deploy a repository or ZIP folder, Nivi Apps automatically detects the project framework (Node, Python, PHP, Go, etc.) and compiles the container for you. Dockerfiles are only necessary if you desire custom system dependencies."}},{"@type":"Question","name":"Can I deploy from a private GitHub repository?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can securely authenticate your GitHub account or supply a private Git access token. Nivi Apps allows you to deploy from any branch and trigger automatic or manual builds on new commits."}},{"@type":"Question","name":"What happens if my application crashes or throws an exception?","acceptedAnswer":{"@type":"Answer","text":"Nivi Apps features automated self-healing. If a fatal crash occurs, the container is restarted immediately to minimize downtime. You can open live logs in the dashboard or have your AI assistant review the stack trace to diagnose the issue."}},{"@type":"Question","name":"Can I connect my own custom domain name?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can attach any custom domain or subdomain by pointing an A or CNAME record to the server address in your dashboard. An SSL certificate is automatically provisioned and renewed at zero cost."}},{"@type":"Question","name":"Does Nivi Apps support databases?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can spin up managed PostgreSQL, MySQL, MariaDB, or Redis database containers alongside your web applications. Connection strings and internal networking are configured automatically."}},{"@type":"Question","name":"Can I migrate my app somewhere else in the future?","acceptedAnswer":{"@type":"Answer","text":"Yes. Because Nivi Apps builds standard OCI containers directly from your codebase, there is zero proprietary vendor lock-in. You can take your repository and run it on any server or cloud environment anytime."}},{"@type":"Question","name":"Ready to Deploy Your First Application in 60 Seconds?","acceptedAnswer":{"@type":"Answer","text":"Experience effortless cloud application hosting with automated HTTPS, managed databases, and native AI deployment assistance."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://blog.genxwhosting.com/blog/nivi-apps-deploy-web-apps-in-one-minute/\"},\"headline\":\"Nivi Apps: How to Deploy Any Web App in About a Minute (With AI &amp; Zero DevOps)\",\"description\":\"Discover Nivi Apps — Gen X Web Hosting's managed app cloud. Deploy from Git, Docker or ZIP with automatic HTTPS, live logs, managed databases, and native AI/MCP assistant controls.\",\"datePublished\":\"Oct 18, 2026\",\"dateModified\":\"Oct 18, 2026\",\"image\":[\"/images/blog/nivi-cloud-apps-hosting.jpg\"],\"author\":{\"@type\":\"Organization\",\"name\":\"Gen X Web Hosting\",\"url\":\"https://genxwhosting.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Gen X Web Hosting\",\"url\":\"https://genxwhosting.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://genxwhosting.com/templates/genx/img/theme/logo.png\"}}}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-00Kh0WhR8aQyiGfK6z9d"}
+3:["$","$L8",null,{}]
+b:T48ae,<div class="bg-blue-50 dark:bg-blue-950/40 border-l-4 border-primary p-5 rounded-r-lg my-6 shadow-sm">
+  <p class="text-xs font-bold uppercase tracking-wider text-primary mb-1">Quick Answer (What is Nivi Apps?)</p>
+  <p class="font-medium text-deep-navy dark:text-surface-white text-base leading-relaxed">
+    <strong>Nivi Apps</strong> is a modern managed application cloud platform by Gen X Web Hosting that lets developers, agencies, and businesses deploy any web application, API, database, or automation tool in about 60 seconds. You push your code (from GitHub, Git URL, Dockerfile, or a ZIP archive), and Nivi Apps automatically detects the runtime, builds the container, issues a free HTTPS SSL certificate, wires up isolated networking and databases, and keeps it running 24/7 without manual server administration.
+  </p>
+</div>
+
+<p class="wp-block-paragraph">For years, developers and founders faced a frustrating dilemma when putting projects into production. You either spent hours configuring Linux packages, firewall rules, Nginx reverse proxies, SSL renewals, and Docker networking on an unmanaged VPS — or you paid exorbitant monthly cloud invoices for proprietary platforms that lock you in.</p>
+
+<p class="wp-block-paragraph">That era is over. With the official rollout of <a href="https://genxwhosting.com/pages/nivi-cloud.php" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Nivi Apps on Gen X Web Hosting</a>, launching production-ready web apps, internal tools, and open-source stacks has become as simple as pushing a commit or selecting a pre-configured template.</p>
+
+<p class="wp-block-paragraph">Whether you are building custom microservices with Node.js, Python, or Go, hosting open-source AI workflows like n8n and Ollama, or running production databases like PostgreSQL, this complete guide covers everything you need to know about Nivi Apps, how it works, and how it revolutionizes developer productivity.</p>
+
+<figure class="wp-block-image size-large mt-6 mb-6">
+  <img src="/images/blog/nivi-cloud-apps-hosting.jpg" alt="Nivi Apps managed application cloud platform by Gen X Web Hosting" class="rounded-lg shadow-md w-full h-auto"/>
+</figure>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">The Three-Step Deployment Pipeline: From Code to Live HTTPS URL</h2>
+<p class="wp-block-paragraph">Traditional hosting environments require configuring SSH keys, installing runtimes, managing port forwarding, and manually provisioning Let's Encrypt certificates. Nivi Apps condenses all of that into an automated three-stage pipeline:</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <div class="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl shadow-sm">
+    <div class="w-10 h-10 bg-primary/10 text-primary font-bold text-lg rounded-lg flex items-center justify-center mb-4">1</div>
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2">Bring Your Code</h3>
+    <p class="text-sm text-on-surface-variant leading-relaxed">Connect your GitHub repository (public or private), specify any Git URL, upload a Dockerfile or container image, or simply drag and drop a ZIP archive of your local code folder.</p>
+  </div>
+  <div class="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl shadow-sm">
+    <div class="w-10 h-10 bg-primary/10 text-primary font-bold text-lg rounded-lg flex items-center justify-center mb-4">2</div>
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2">Automated Container Build</h3>
+    <p class="text-sm text-on-surface-variant leading-relaxed">Nivi Apps inspects your project, automatically detects the programming language (Node.js, Python, Go, PHP, Ruby, Rust, etc.), installs dependencies, and packages the environment in a secure, isolated container.</p>
+  </div>
+  <div class="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl shadow-sm">
+    <div class="w-10 h-10 bg-primary/10 text-primary font-bold text-lg rounded-lg flex items-center justify-center mb-4">3</div>
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2">Instant Global Launch</h3>
+    <p class="text-sm text-on-surface-variant leading-relaxed">Your application receives a live HTTPS address with automated TLS termination in seconds. When you're ready, point your custom domain with a simple CNAME or A record.</p>
+  </div>
+</div>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Let Your AI Coding Assistant Run Deployments (MCP Native)</h2>
+<p class="wp-block-paragraph">One of the standout, industry-first innovations in Nivi Apps is deep support for the <strong>Model Context Protocol (MCP)</strong>. Instead of constantly context-switching between your terminal, cloud dashboard, and code editor, Nivi Apps bridges directly into leading AI coding environments including <strong>Claude, ChatGPT, Cursor, and Windsurf</strong>.</p>
+
+<p class="wp-block-paragraph">Through our secure MCP connector, your AI assistant can interact with your application environment directly under your permission:</p>
+<ul class="wp-block-list">
+  <li><strong>Instant Error Diagnosis:</strong> If an app returns an HTTP 500 error or fails to boot, your AI assistant can inspect the last 100 lines of live application container logs, locate the syntax exception or missing environment variable, and suggest the fix right in your code editor.</li>
+  <li><strong>One-Click Redeployments:</strong> After you accept a code change or bug fix, instruct your assistant: <em>"Redeploy the auth service on Nivi Apps,"</em> and it triggers the build pipeline automatically.</li>
+  <li><strong>Container State &amp; Health Checks:</strong> Check status, restart unresponsive worker processes, and view CPU/memory telemetry without opening a browser window.</li>
+  <li><strong>Granular Security Controls:</strong> The AI connector operates strictly within the permissions you grant and can only see the apps assigned to your authenticated API keys.</li>
+</ul>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">What Can You Run on Nivi Apps?</h2>
+<p class="wp-block-paragraph">Nivi Apps provides the freedom of standard containerization without the complexity of managing Kubernetes or Docker swarms. You can deploy virtually any software stack or one-click ready-made solution:</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+  <div class="border border-slate-200 dark:border-slate-800 p-5 rounded-xl bg-surface-white dark:bg-surface-container">
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2 flex items-center gap-2">
+      <span class="text-primary">⚡</span> Workflow &amp; AI Automation
+    </h3>
+    <p class="text-sm text-on-surface-variant mb-3">Run self-hosted automation engines and agentic workers with persistent storage and webhook reliability:</p>
+    <div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">n8n Workflow Automation</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Node-RED</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">OpenClaw AI VPS</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Hermes Autonomous Agent</span>
+    </div>
+  </div>
+
+  <div class="border border-slate-200 dark:border-slate-800 p-5 rounded-xl bg-surface-white dark:bg-surface-container">
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2 flex items-center gap-2">
+      <span class="text-primary">🧠</span> Local AI &amp; LLM Tooling
+    </h3>
+    <p class="text-sm text-on-surface-variant mb-3">Spin up private conversational AI, LLM orchestration, and RAG pipelines without sending sensitive business data to third parties:</p>
+    <div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Ollama Local LLMs</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Dify AI Application Platform</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Langflow</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Flowise</span>
+    </div>
+  </div>
+
+  <div class="border border-slate-200 dark:border-slate-800 p-5 rounded-xl bg-surface-white dark:bg-surface-container">
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2 flex items-center gap-2">
+      <span class="text-primary">🚀</span> Headless Backends &amp; BaaS
+    </h3>
+    <p class="text-sm text-on-surface-variant mb-3">Deploy scalable, developer-first backends with instant REST/GraphQL APIs, real-time subscriptions, and authentication:</p>
+    <div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Supabase (Self-hosted)</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">PocketBase</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Appwrite</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Directus Headless CMS</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Strapi CMS</span>
+    </div>
+  </div>
+
+  <div class="border border-slate-200 dark:border-slate-800 p-5 rounded-xl bg-surface-white dark:bg-surface-container">
+    <h3 class="text-lg font-bold text-deep-navy dark:text-surface-white mb-2 flex items-center gap-2">
+      <span class="text-primary">🗄️</span> Managed Databases &amp; Caches
+    </h3>
+    <p class="text-sm text-on-surface-variant mb-3">Provision isolated databases right alongside your application containers with automated wiring and internal DNS:</p>
+    <div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">PostgreSQL</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">MySQL</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">MariaDB</span>
+      <span class="bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Redis In-Memory Cache</span>
+    </div>
+  </div>
+</div>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Key Platform Features Engineered for Developers</h2>
+<p class="wp-block-paragraph">Nivi Apps eliminates operational friction while keeping full power in your hands:</p>
+
+<ul class="wp-block-list">
+  <li><strong>Browser-Based Terminal:</strong> Need to run a database migration (<code>npx prisma migrate</code> or <code>python manage.py migrate</code>) or inspect file storage? Open an interactive shell inside your running container directly from the browser — no SSH keys required.</li>
+  <li><strong>Live Streaming Logs:</strong> View continuous standard output (stdout/stderr) from your application processes in real time to catch crashes, debug routing errors, and verify worker jobs.</li>
+  <li><strong>Environment Variables Management:</strong> Configure API keys, database credentials, and production environment variables securely in your dashboard. Updating variables triggers seamless rolling updates.</li>
+  <li><strong>Private Network Isolation:</strong> Every app runs on its own dedicated virtual network. Databases and internal services are kept private and shielded from the public internet, accessible only by your authorized frontends.</li>
+  <li><strong>Automatic Self-Healing &amp; Restarts:</strong> If an unhandled exception or memory surge crashes your application process, the Nivi Apps container engine immediately spins up a healthy container instance to keep your downtime near zero.</li>
+  <li><strong>Zero Vendor Lock-In:</strong> Because Nivi Apps runs standard Open Container Initiative (OCI) containers built from your clean Git repositories or Dockerfiles, you always retain 100% ownership of your code. You can move your application to any server anytime.</li>
+</ul>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Nivi Apps Plan Comparison</h2>
+<p class="wp-block-paragraph">Whether you are testing a single prototype or hosting production infrastructure for client projects, Nivi Apps offers transparent tiers with full feature parity:</p>
+
+<figure class="wp-block-table overflow-x-auto">
+  <table class="w-full border-collapse border border-slate-200 dark:border-slate-700 text-left my-4 text-sm">
+    <thead class="bg-slate-100 dark:bg-slate-800 text-deep-navy dark:text-surface-white font-bold">
+      <tr>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Feature / Plan</th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Starter Plan</th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Builder Plan (Most Popular)</th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Studio Plan</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="p-3 font-semibold">Ideal For</td>
+        <td class="p-3">Side projects, personal APIs &amp; prototypes</td>
+        <td class="p-3">Production business apps &amp; active SaaS</td>
+        <td class="p-3">Agencies, multi-app teams &amp; client portals</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">Included Applications</td>
+        <td class="p-3">1 Active App</td>
+        <td class="p-3">3 Active Apps</td>
+        <td class="p-3">6 Active Apps</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">CPU Allocation</td>
+        <td class="p-3">1 Dedicated Core</td>
+        <td class="p-3">2 Dedicated Cores</td>
+        <td class="p-3">4 Dedicated Cores</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">RAM Memory</td>
+        <td class="p-3">2 GB RAM</td>
+        <td class="p-3">2.5 GB RAM</td>
+        <td class="p-3">8 GB RAM</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">Free HTTPS &amp; Custom Domains</td>
+        <td class="p-3">Included (Unlimited)</td>
+        <td class="p-3">Included (Unlimited)</td>
+        <td class="p-3">Included (Unlimited)</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">Managed Databases</td>
+        <td class="p-3">PostgreSQL / MySQL / Redis</td>
+        <td class="p-3">PostgreSQL / MySQL / Redis</td>
+        <td class="p-3">PostgreSQL / MySQL / Redis</td>
+      </tr>
+      <tr>
+        <td class="p-3 font-semibold">AI / MCP Integration</td>
+        <td class="p-3">Included</td>
+        <td class="p-3">Included</td>
+        <td class="p-3">Included</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+<p class="wp-block-paragraph"><em>Special Launch Offer:</em> Use promo code <code>NIVICLOUD</code> during checkout at <a href="https://genxwhosting.com/cart.php?gid=23" target="_blank" rel="noopener noreferrer" class="text-primary font-bold underline decoration-2 underline-offset-2">Gen X Web Hosting</a> to receive an exclusive discount on your first month across all Nivi Apps plans!</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">Frequently Asked Questions (FAQ)</h2>
+
+<h3 class="wp-block-heading">Do I need to know Docker to use Nivi Apps?</h3>
+<p class="wp-block-paragraph">No. Docker knowledge is completely optional. When you deploy a repository or ZIP folder, Nivi Apps automatically detects the project framework (Node, Python, PHP, Go, etc.) and compiles the container for you. Dockerfiles are only necessary if you desire custom system dependencies.</p>
+
+<h3 class="wp-block-heading">Can I deploy from a private GitHub repository?</h3>
+<p class="wp-block-paragraph">Yes. You can securely authenticate your GitHub account or supply a private Git access token. Nivi Apps allows you to deploy from any branch and trigger automatic or manual builds on new commits.</p>
+
+<h3 class="wp-block-heading">What happens if my application crashes or throws an exception?</h3>
+<p class="wp-block-paragraph">Nivi Apps features automated self-healing. If a fatal crash occurs, the container is restarted immediately to minimize downtime. You can open live logs in the dashboard or have your AI assistant review the stack trace to diagnose the issue.</p>
+
+<h3 class="wp-block-heading">Can I connect my own custom domain name?</h3>
+<p class="wp-block-paragraph">Yes. You can attach any custom domain or subdomain by pointing an A or CNAME record to the server address in your dashboard. An SSL certificate is automatically provisioned and renewed at zero cost.</p>
+
+<h3 class="wp-block-heading">Does Nivi Apps support databases?</h3>
+<p class="wp-block-paragraph">Yes. You can spin up managed PostgreSQL, MySQL, MariaDB, or Redis database containers alongside your web applications. Connection strings and internal networking are configured automatically.</p>
+
+<h3 class="wp-block-heading">Can I migrate my app somewhere else in the future?</h3>
+<p class="wp-block-paragraph">Yes. Because Nivi Apps builds standard OCI containers directly from your codebase, there is zero proprietary vendor lock-in. You can take your repository and run it on any server or cloud environment anytime.</p>
+
+<div class="bg-gradient-to-r from-primary to-primary-container text-white p-6 rounded-lg my-8 shadow-md text-center">
+  <h3 class="text-xl font-bold mb-2 text-white">Ready to Deploy Your First Application in 60 Seconds?</h3>
+  <p class="text-sm text-blue-100 mb-4 max-w-xl mx-auto">Experience effortless cloud application hosting with automated HTTPS, managed databases, and native AI deployment assistance.</p>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="https://genxwhosting.com/pages/nivi-cloud.php" target="_blank" rel="noopener noreferrer" class="bg-white text-primary font-bold px-5 py-2.5 rounded shadow hover:bg-slate-100 transition-colors text-sm">Explore Nivi Apps Cloud</a>
+    <a href="https://genxwhosting.com/cart.php?gid=23" target="_blank" rel="noopener noreferrer" class="bg-deep-navy text-white font-bold px-5 py-2.5 rounded shadow hover:bg-slate-900 transition-colors text-sm">Start Deploying Now</a>
+  </div>
+</div>4:["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L9",null,{"href":"/category/cloud","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["Cloud"," / Developer Tools"]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy dark:text-surface-white mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"Nivi Apps: How to Deploy Any Web App in About a Minute (With AI &amp; Zero DevOps)"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$La",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"style":{"objectFit":"cover"},"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy dark:text-surface-white","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"Oct 18, 2026","children":"Oct 18, 2026"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"10 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$La",null,{"src":"/images/blog/nivi-cloud-apps-hosting.jpg","alt":"Hero","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text dark:text-surface-white space-y-6 prose-headings:text-deep-navy dark:prose-headings:text-surface-white prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld"]}]}]
+5:["$","section",null,{"className":"bg-surface dark:bg-transparent py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy dark:text-surface-white mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L9","1411",{"href":"/blog/domain-vs-web-hosting-what-indian-businesses-actually-need","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$La",null,{"src":"/images/blog/domain-vs-web-hosting.jpg","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Domain"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Domain vs Web Hosting: What Indian Businesses Actually Need to Buy"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Domain and web hosting are not the same thing. See what each does, why Indian businesses need both, and how to connect a domain to hosting."}}]]}]]}],["$","$L9","1410",{"href":"/blog/how-to-create-first-n8n-workflow","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$La",null,{"src":"/images/blog/n8n.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Automation"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"How to Create Your First n8n Workflow: Step-by-Step Guide for Beginners"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Learn how to create your first n8n workflow step by step. Discover n8n automation, triggers, nodes, webhooks, hosting, and how to get started with managed n8n hosting."}}]]}]]}],["$","$L9","1409",{"href":"/blog/n8n-vs-zapier-self-hosting-saves-money","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":"$Le"}],"$Lf"]}]]}]]}]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/15bnz8wmddiqu.js","async":true}]
+7:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+c:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy dark:text-surface-white self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"Cloud"}]]}]
+d:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright dark:bg-surface-container p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy dark:text-surface-white mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+e:["$","$La",null,{"src":"/images/blog/n8n_vs_zap.png","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]
+f:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Web Hosting Tips"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"n8n vs Zapier: Why Self-Hosting Saves Money (And When It Makes Sense)"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Discover the differences between n8n and Zapier. Learn why self-hosting n8n on a VPS from Gen X Web Hosting can save you thousands of dollars while giving you advanced workflow automation capabilities."}}]]}]
+12:null

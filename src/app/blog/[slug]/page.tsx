@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: cleanExcerpt,
       url: canonicalTarget,
       type: 'article',
-      publishedTime: toIsoDate(post.date),
+      publishedTime: (post as any).datePublished ? toIsoDate((post as any).datePublished) : toIsoDate(post.date),
       authors: ['Gen X Web Hosting'],
       images: [{ url: absoluteImageUrl }],
     },
@@ -96,8 +96,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
   const canonicalTarget = (post as any).canonical || canonicalUrl;
   const absoluteImageUrl = toAbsoluteUrl(post.imageUrl);
-  const datePublishedIso = toIsoDate(post.date);
-  const dateModifiedIso = toIsoDate((post as any).dateModified || post.date);
+  const datePublishedIso = (post as any).datePublished ? toIsoDate((post as any).datePublished) : toIsoDate(post.date);
+  const dateModifiedIso = (post as any).dateModified ? toIsoDate((post as any).dateModified) : toIsoDate(post.date);
 
   // BlogPosting schema
   const articleJsonLd: any = {

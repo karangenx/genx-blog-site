@@ -5,6 +5,24 @@ import postsData from "@/data/posts.json";
 import ReadingProgressBar from "@/components/ReadingProgressBar";
 import type { Metadata } from "next";
 
+function toIsoDate(dateStr?: string): string {
+  if (!dateStr) return new Date().toISOString();
+  try {
+    const d = new Date(dateStr);
+    if (!isNaN(d.getTime())) {
+      return d.toISOString();
+    }
+  } catch {}
+  return dateStr;
+}
+
+function toAbsoluteUrl(url?: string): string {
+  if (!url) return "https://blog.genxwhosting.com/logo.png";
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  if (url.startsWith("/")) return `https://blog.genxwhosting.com${url}`;
+  return `https://blog.genxwhosting.com/${url}`;
+}
+
 export async function generateStaticParams() {
   return postsData.map((post) => ({
     slug: post.slug,
@@ -23,27 +41,31 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const cleanTitle = post.title.replace(/<[^>]*>?/gm, '').trim();
   const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
   const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
+  const canonicalTarget = (post as any).canonical || canonicalUrl;
+  const shouldNoindex = Boolean((post as any).noindex);
+  const absoluteImageUrl = toAbsoluteUrl(post.imageUrl);
 
   return {
     title: cleanTitle,
     description: cleanExcerpt,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: canonicalTarget,
     },
+    ...(shouldNoindex ? { robots: { index: false, follow: canonicalTarget === canonicalUrl } } : {}),
     openGraph: {
       title: cleanTitle,
       description: cleanExcerpt,
-      url: canonicalUrl,
+      url: canonicalTarget,
       type: 'article',
-      publishedTime: post.date,
+      publishedTime: toIsoDate(post.date),
       authors: ['Gen X Web Hosting'],
-      images: post.imageUrl ? [{ url: post.imageUrl }] : [],
+      images: [{ url: absoluteImageUrl }],
     },
     twitter: {
       card: 'summary_large_image',
       title: cleanTitle,
       description: cleanExcerpt,
-      images: post.imageUrl ? [post.imageUrl] : [],
+      images: [absoluteImageUrl],
     }
   };
 }
@@ -64,25 +86,32 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     return `${minutes} min read`;
   };
 
-  // Related posts (fetching latest for now)
-  const relatedPosts = postsData.filter((p) => p.slug !== post.slug).slice(0, 3);
+  // Topical related posts (same category first, then remaining)
+  const sameCategory = postsData.filter((p) => p.slug !== post.slug && p.category === post.category);
+  const otherPosts = postsData.filter((p) => p.slug !== post.slug && p.category !== post.category);
+  const relatedPosts = [...sameCategory, ...otherPosts].slice(0, 3);
 
   const cleanTitle = post.title.replace(/<[^>]*>?/gm, '').trim();
   const cleanExcerpt = post.excerpt.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
   const canonicalUrl = `https://blog.genxwhosting.com/blog/${slug}/`;
+  const canonicalTarget = (post as any).canonical || canonicalUrl;
+  const absoluteImageUrl = toAbsoluteUrl(post.imageUrl);
+  const datePublishedIso = toIsoDate(post.date);
+  const dateModifiedIso = toIsoDate((post as any).dateModified || post.date);
 
+  // BlogPosting schema
   const articleJsonLd: any = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": canonicalUrl
+      "@id": canonicalTarget
     },
     "headline": cleanTitle,
     "description": cleanExcerpt,
-    "datePublished": post.date,
-    "dateModified": post.date,
-    ...(post.imageUrl ? { "image": [post.imageUrl] } : {}),
+    "datePublished": datePublishedIso,
+    "dateModified": dateModifiedIso,
+    "image": [absoluteImageUrl],
     "author": {
       "@type": "Organization",
       "name": "Gen X Web Hosting",
@@ -99,13 +128,44 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     }
   };
 
-  // Extract FAQ items for FAQPage schema markup
+  // BreadcrumbList schema (Blog > Category > Post)
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Blog",
+        "item": "https://blog.genxwhosting.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": post.category,
+        "item": `https://blog.genxwhosting.com/category/${post.category.toLowerCase().replaceAll(" ", "-")}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": cleanTitle,
+        "item": canonicalTarget
+      }
+    ]
+  };
+
+  // Extract FAQ items for FAQPage schema markup (excluding CTA questions)
   const extractFaqs = (content: string) => {
     const faqs: Array<{ '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }> = [];
     const faqHeadingIndex = content.search(/<h[23][^>]*>(?:.*?(?:Frequently Asked Questions|FAQ).*?)<\/h[23]>/i);
     if (faqHeadingIndex === -1) return faqs;
 
     const faqSub = content.substring(faqHeadingIndex);
+
+    const isCtaQuestion = (q: string) => {
+      return /ready to (deploy|build|launch|start|get)/i.test(q) ||
+             /get started with/i.test(q);
+    };
 
     // Pattern 1: <h3>Question?</h3> <p>Answer</p>
     const h3Regex = /<h3[^>]*>(.*?)<\/h3>\s*<p[^>]*>(.*?)<\/p>/gi;
@@ -114,14 +174,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       const q = match[1].replace(/<[^>]*>?/gm, '').trim();
       const a = match[2].replace(/<[^>]*>?/gm, '').trim();
       if (q && a && (q.endsWith('?') || /^(what|how|can|is|why|do|does|who|where|which)/i.test(q) || /^\d+\./.test(q))) {
-        faqs.push({
-          '@type': 'Question',
-          name: q.replace(/^\d+\.\s*/, ''),
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: a
-          }
-        });
+        const cleanQ = q.replace(/^\d+\.\s*/, '');
+        if (!isCtaQuestion(cleanQ)) {
+          faqs.push({
+            '@type': 'Question',
+            name: cleanQ,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: a
+            }
+          });
+        }
       }
     }
 
@@ -131,7 +194,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       while ((match = strongRegex.exec(faqSub)) !== null) {
         const q = match[1].replace(/<[^>]*>?/gm, '').trim();
         const a = match[2].replace(/<[^>]*>?/gm, '').trim();
-        if (q && a) {
+        if (q && a && !isCtaQuestion(q)) {
           faqs.push({
             '@type': 'Question',
             name: q,
@@ -160,11 +223,21 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {faqJsonLd && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
+      )}
+      {(post as any).canonical && (post as any).canonical !== canonicalUrl && (
+        <head>
+          <meta httpEquiv="refresh" content={`0;url=${(post as any).canonical}`} />
+          <link rel="canonical" href={(post as any).canonical} />
+        </head>
       )}
       <ReadingProgressBar />
       <main className="flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap">
@@ -187,7 +260,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <span>By <strong className="text-deep-navy dark:text-surface-white">Gen X Web Hosting</strong></span>
               </div>
               <span className="text-outline hidden sm:inline">•</span>
-              <time dateTime={post.date}>{post.date}</time>
+              <time dateTime={datePublishedIso}>{post.date}</time>
               <span className="text-outline hidden sm:inline">•</span>
               <span>{getReadingTime(post.content)}</span>
             </div>

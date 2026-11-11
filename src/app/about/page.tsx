@@ -4,13 +4,13 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+  description: "Learn more about the Gen X Web Hosting blog, our mission, and the team behind our technical insights.",
   alternates: {
     canonical: "https://blog.genxwhosting.com/about/",
   },
   openGraph: {
     title: "About Us | Gen X Web Hosting",
-    description: "Learn more about the Gen X Web Hosting blog, our mission, and the editors behind the technical insights.",
+    description: "Learn more about the Gen X Web Hosting blog, our mission, and the team behind our technical insights.",
     url: "https://blog.genxwhosting.com/about/",
   },
 };
@@ -50,8 +50,8 @@ export default function AboutPage() {
           {/* Stats / Fact 1 */}
           <div className="bg-deep-navy rounded-lg p-8 text-surface-white flex flex-col justify-center items-center text-center shadow-lg transform hover:scale-[1.02] transition-transform">
             <span className="material-symbols-outlined text-action-orange mb-4 text-[48px]" data-icon="speed">speed</span>
-            <h3 className="font-headline-lg text-headline-lg mb-2">99.99%</h3>
-            <p className="font-body-md text-body-md text-secondary-fixed-dim">Uptime Mindset in Every Article</p>
+            <h3 className="font-headline-lg text-headline-lg mb-2">99.9%</h3>
+            <p className="font-body-md text-body-md text-secondary-fixed-dim">Uptime Commitment, Reflected in Every Article</p>
           </div>
 
           {/* Stats / Fact 2 */}
@@ -69,44 +69,20 @@ export default function AboutPage() {
       <section className="bg-surface-container-low py-section-gap border-y border-surface-variant">
         <div className="px-margin-edge max-w-container-max mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-display-lg text-display-lg mb-4 text-deep-navy">Meet the Editors</h2>
+            <h2 className="font-display-lg text-display-lg mb-4 text-deep-navy">Our Team</h2>
             <p className="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto">The technical minds curating and authoring the insights you read.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-            {/* Team Member 1 */}
-            <div className="bg-surface-white border border-outline-variant rounded-lg overflow-hidden group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl">
-              <div className="h-64 overflow-hidden relative bg-surface-container">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYLSeTtgNfc0Uj7OMpwfgmN9pndCNU_H--OeP_ZzfafGqoD0zO6sIfNPMjS31ONDgpoNVWxhJeh3V8SdNvAanquDE5ZHoPOrvICeQ9cSyCY87AUInnPo9piXTXIHWMG5_ubGRJKCSZD7AoOicGBg7EnS6Rdtw-MRBaq6cFKSuLZXRc6XQdo_Nj9XtKLG2K8CvPhe4FN3Har0T_OLnFDEI2K94sqzgHg4z97dDDyf2lx39J5343a2685A4X02r19nozUfyjJHXoDbSb" alt="Sarah Jenkins" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div className="flex justify-center">
+            {/* Gen X Web Hosting Team */}
+            <div className="bg-surface-white border border-outline-variant rounded-lg overflow-hidden group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl max-w-md w-full">
+              <div className="h-64 overflow-hidden relative bg-surface-container flex items-center justify-center">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM" alt="Gen X Web Hosting team" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <h3 className="font-headline-md text-headline-md mb-1 text-deep-navy">Sarah Jenkins</h3>
-                <p className="font-label-sm text-label-sm text-primary mb-4 uppercase tracking-wider">Lead Cloud Architect</p>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6">Specializes in Kubernetes deployments, multi-cloud strategy, and high-availability systems.</p>
-              </div>
-            </div>
-
-            {/* Team Member 2 */}
-            <div className="bg-surface-white border border-outline-variant rounded-lg overflow-hidden group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl">
-              <div className="h-64 overflow-hidden relative bg-surface-container">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwWMv0tEn1qGpiw320D7s2QMh0tlXjofjVfGpsnzV7-QiSQhUnFMlVcqowvEcw0Cax6x_s-DlU-B9g-W1jG04ozbRSvkjNx_RyUrt2Jo1z3V8Q5bIPcMuqHI0RQ0TbRZEYW8V4AYg-tI4u73X7EsBHMbmVYhNTaLRQNkw5UGFsVBspeS1avUfaRYKobGnPq-LroCzQ7lFlVglfVNikJYr7mKkynoU4Oxe8Qah0bQDUMkHaxiNPgUi0Dq8t-HFvY4hO8NknyTE9CdJT" alt="David Chen" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-headline-md text-headline-md mb-1 text-deep-navy">David Chen</h3>
-                <p className="font-label-sm text-label-sm text-primary mb-4 uppercase tracking-wider">Senior Security Analyst</p>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6">Focuses on zero-trust architecture, penetration testing, and compliance frameworks.</p>
-              </div>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="bg-surface-white border border-outline-variant rounded-lg overflow-hidden group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl">
-              <div className="h-64 overflow-hidden relative bg-surface-container">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuClQYsG5Jwu5edMAShFA-mU2YPaip2ngahUm_XN_Ez4zoWOPV1o1oykDfiOLat2cU4nolN85gO1xY8bQAbvVEtzRooq2Vewpq6ByyqZ4xqtReV38_EozsaV3Lsg_cjXeSmvIHQ5Rjd5hjsww5HY1BknUcutJdiyfEXTNZ4LwNm8MLRw54eVqgQ6J6fZohpiEvdXrY3oVQGDJ0QLySt6CKpaOO_UEh7xfdWfOQ74RQDG7_oRbtAkwTvlJvvdP2-pqWunMObUDObiRZ7W" alt="Elena Rodriguez" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-headline-md text-headline-md mb-1 text-deep-navy">Elena Rodriguez</h3>
-                <p className="font-label-sm text-label-sm text-primary mb-4 uppercase tracking-wider">Infrastructure Dev</p>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6">Writes about CI/CD pipelines, automation scripts, and optimizing server performance.</p>
+              <div className="p-6 text-center">
+                <h3 className="font-headline-md text-headline-md mb-1 text-deep-navy">Gen X Web Hosting Team</h3>
+                <p className="font-label-sm text-label-sm text-primary mb-4 uppercase tracking-wider">Hosting & Infrastructure Experts</p>
+                <p className="font-body-md text-body-md text-on-surface-variant mb-6">The Gen X Web Hosting team has been helping businesses get online since 2011. We write about hosting, domains, security, and the tools we build.</p>
               </div>
             </div>
           </div>
@@ -120,10 +96,10 @@ export default function AboutPage() {
           <div className="absolute bottom-0 left-0 -ml-16 -mb-16 w-48 h-48 bg-action-orange rounded-full opacity-10 blur-2xl"></div>
           <h2 className="font-display-lg text-display-lg mb-6 text-surface-white relative z-10">Have a topic you want us to cover?</h2>
           <p className="font-body-lg text-body-lg text-secondary-fixed-dim max-w-2xl mx-auto mb-10 relative z-10">
-            We are always looking for new challenges and architectural problems to dissect. Reach out to our editorial team with your suggestions or technical questions.
+            We are always looking for new challenges and architectural problems to dissect. Reach out to our team with your suggestions or technical questions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
-            <button className="bg-action-orange text-surface-white px-8 py-3 rounded font-headline-md text-headline-md hover:opacity-90 transition-opacity shadow-sm">Contact Editors</button>
+            <button className="bg-action-orange text-surface-white px-8 py-3 rounded font-headline-md text-headline-md hover:opacity-90 transition-opacity shadow-sm">Contact Our Team</button>
             <button className="border border-outline-variant text-surface-white px-8 py-3 rounded font-headline-md text-headline-md hover:bg-surface-white hover:text-deep-navy transition-colors">Submit Guest Post</button>
           </div>
         </div>

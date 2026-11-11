@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import postsData from "@/data/posts.json";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -37,6 +38,20 @@ const allCategories = [
 ];
 
 export default function CategoriesPage() {
+  const activeCategories = allCategories.filter((category) => {
+    return postsData.some((post) => {
+      const mainSlug = post.category.toLowerCase().replaceAll(' ', '-');
+      if (mainSlug === category.slug) return true;
+      if (post.subCategory) {
+        const subSlug = post.subCategory.toLowerCase().replaceAll(' ', '-');
+        if (subSlug === category.slug || `${mainSlug}-${subSlug}` === category.slug) {
+          return true;
+        }
+      }
+      return false;
+    });
+  });
+
   return (
     <main className="flex-1 bg-surface-white dark:bg-deep-navy">
       <div className="py-12 px-margin-edge max-w-container-max mx-auto">
@@ -50,7 +65,7 @@ export default function CategoriesPage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {allCategories.map((category) => (
+          {activeCategories.map((category) => (
             <Link
               key={category.slug}
               href={`/category/${category.slug}`}

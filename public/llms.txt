@@ -1,0 +1,9 @@
+# Gen X Web Hosting Blog
+Technical guides and product updates on hosting, DNS, SSL, email, and AI automation tools from Gen X Web Hosting.
+
+## Strong 2026 Guides
+- [Nivi Apps: How to Deploy Any Web App in About a Minute (With AI & Zero DevOps)](https://blog.genxwhosting.com/blog/nivi-apps-deploy-web-apps-in-one-minute/): Deploy web applications from Git, Docker, or ZIP in about sixty seconds with managed databases and automatic HTTPS.
+- [Domain vs Web Hosting: What Indian Businesses Actually Need to Buy](https://blog.genxwhosting.com/blog/domain-vs-web-hosting-what-indian-businesses-actually-need/): A clear breakdown of the difference between domain names and web hosting, explaining why businesses need both.
+- [How to Create Your First n8n Workflow: Step-by-Step Guide for Beginners](https://blog.genxwhosting.com/blog/how-to-create-first-n8n-workflow/): Beginner-friendly walkthrough of setting up triggers, nodes, webhooks, and automation workflows using self-hosted n8n.
+- [n8n vs Zapier: Why Self-Hosting Saves Money (And When It Makes Sense)](https://blog.genxwhosting.com/blog/n8n-vs-zapier-self-hosting-saves-money/): Comprehensive comparison of features, pricing, and scalability between self-hosted n8n and Zapier.
+- [The Complete Guide to AI Chatbots: Train Your AI with Your Own Data Using Nivi Chat](https://blog.genxwhosting.com/blog/complete-guide-to-ai-chatbots-nivi-chat/): Guide to training and deploying custom AI chatbots using website data, PDFs, FAQs, and enterprise documents.

@@ -233,6 +233,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
+      {(post as any).extraJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify((post as any).extraJsonLd) }}
+        />
+      )}
       {(post as any).canonical && (post as any).canonical !== canonicalUrl && (
         <head>
           <meta httpEquiv="refresh" content={`0;url=${(post as any).canonical}`} />

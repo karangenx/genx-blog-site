@@ -2,6 +2,7 @@
 Technical guides and product updates on hosting, DNS, SSL, email, and AI automation tools from Gen X Web Hosting.
 
 ## Strong 2026 Guides
+- [Node.js Hosting in India: Shared, Managed or VPS?](https://blog.genxwhosting.com/blog/nodejs-hosting-india-shared-managed-or-vps/): When a Node.js plan is enough, when you need a VPS, and why an India data centre matters for APIs and WebSockets.
 - [Linux Reseller Hosting: WHM, Packages and CloudLinux](https://blog.genxwhosting.com/blog/linux-reseller-hosting-whm-packages-cloudlinux/): How reseller accounts work, how to build packages, private nameservers, and what CloudLinux changes for client isolation.
 - [Black Friday 2026 Hosting Deals in India](https://blog.genxwhosting.com/blog/black-friday-web-hosting-deals-india-2026/): Gen X sale dates 14–30 November, first-year .com/.in/.co.in prices, wallet bonus tiers, and how daily vault deals work.
 - [How to Choose a VPS in India (2026)](https://blog.genxwhosting.com/blog/how-to-choose-a-vps-in-india-2026/): Size CPU, RAM, storage and bandwidth, read INR prices, and check data-centre location before you buy.

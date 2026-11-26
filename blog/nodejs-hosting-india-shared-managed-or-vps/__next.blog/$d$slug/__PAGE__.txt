@@ -1,0 +1,189 @@
+1:"$Sreact.fragment"
+8:I[88027,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1c-j_wgcc7p--.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"default"]
+9:I[22016,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1c-j_wgcc7p--.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],""]
+a:I[5500,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1c-j_wgcc7p--.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/15bnz8wmddiqu.js"],"Image"]
+10:I[97367,["/_next/static/chunks/3rdqn8rx95pw7.js","/_next/static/chunks/1c-j_wgcc7p--.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+:HL["https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","image"]
+2:T6ff,{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I run Next.js on a Node.js hosting plan?","acceptedAnswer":{"@type":"Answer","text":"The Gen X Node.js page lists Next.js (along with Express, NestJS and Koa) as an app you can deploy with the cPanel Node.js Selector. Confirm build and memory needs against the plan limits before you go live."}},{"@type":"Question","name":"Can I host a Telegram or Discord bot?","acceptedAnswer":{"@type":"Answer","text":"A bot is just another always-on Node process. A Node.js plan can be enough if the bot is small and the platform keeps the process running. If you need several workers, more memory, or packages the selector will not install, use a VPS."}},{"@type":"Question","name":"Can I open a custom public port?","acceptedAnswer":{"@type":"Answer","text":"This article does not assume that a shared Node.js plan will expose an arbitrary port. Ask support, or choose a Linux VPS, where you control the stack and the proxy."}},{"@type":"Question","name":"Does ordinary shared hosting run Node.js?","acceptedAnswer":{"@type":"Answer","text":"The standard Linux shared cPanel and DirectAdmin pages describe PHP, email, SSL and 1-click apps. They do not list a Node.js selector. Use the Node.js hosting plan or a VPS for Node apps."}},{"@type":"Question","name":"Where do I see current prices?","acceptedAnswer":{"@type":"Answer","text":"On the Node.js hosting page and the Linux Virtual Cloud page. Switch the site currency to INR and read the first-term and renewal figures."}},{"@type":"Question","name":"Is there a money-back period?","acceptedAnswer":{"@type":"Answer","text":"The Node.js and Linux VPS plan pages list a 30-day money-back guarantee. The refund conditions are in the Terms of Use."}}]}0:{"rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://blog.genxwhosting.com/blog/nodejs-hosting-india-shared-managed-or-vps/\"},\"headline\":\"Node.js Hosting in India: Shared, Managed or VPS?\",\"description\":\"Choose shared hosting, a Node.js plan, or a VPS for apps in India. Covers always-on processes, Node versions, India servers, and when you need root.\",\"datePublished\":\"2026-11-26T00:00:00.000Z\",\"dateModified\":\"2026-11-26T00:00:00.000Z\",\"image\":[\"https://blog.genxwhosting.com/images/blog/nodejs-hosting-india-shared-managed-or-vps-hero.webp\"],\"author\":{\"@type\":\"Organization\",\"name\":\"Gen X Web Hosting\",\"url\":\"https://genxwhosting.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Gen X Web Hosting\",\"url\":\"https://genxwhosting.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://genxwhosting.com/templates/genx/img/theme/logo.png\"}}}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Blog\",\"item\":\"https://blog.genxwhosting.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Web Hosting Tips\",\"item\":\"https://blog.genxwhosting.com/category/web-hosting-tips/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Node.js Hosting in India: Shared, Managed or VPS?\",\"item\":\"https://blog.genxwhosting.com/blog/nodejs-hosting-india-shared-managed-or-vps/\"}]}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$undefined","$undefined","$L3","$L4","$L5"],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-IglSwwwjgBv78hPI_na9"}
+3:["$","$L8",null,{}]
+b:T42e8,<div class="bg-blue-50 dark:bg-blue-950/40 border-l-4 border-primary p-5 rounded-r-lg my-6 shadow-sm">
+  <p class="text-xs font-bold uppercase tracking-wider text-primary mb-1">Quick Answer (Key Takeaways)</p>
+  <p class="font-medium text-deep-navy dark:text-surface-white text-base leading-relaxed">A Node.js app needs an always-on process, a supported Node version, and a way to expose HTTP — ordinary PHP shared hosting does not give you that. For a single Express, NestJS or Next.js app, a Node.js hosting plan with a version selector, NPM and SSH is usually enough; move to a VPS when you need root, multiple long-running workers, Docker, or custom ports and a reverse proxy you control. Gen X lists Node 16, 18, 20 and 22 LTS, an India data centre, and current plan sizes on the <a href="https://genxwhosting.com/pages/hosting.php?type=node-js">Node.js hosting page</a> — check that page for prices.</p>
+</div>
+
+<p class="wp-block-paragraph">If you are shipping an API, a bot or a Next.js site for users in India, the choice is about process model, memory, and where the server sits. <a href="https://genxwhosting.com/pages/hosting.php?type=node-js">Gen X Web Hosting</a> has been hosting since 2011 and lists a <strong>99.9%</strong> uptime SLA on this plan line.</p>
+
+<h2 class="wp-block-heading">What Node.js apps need from a host</h2>
+
+<p class="wp-block-paragraph">PHP shared hosting is built around a request that starts, talks to the database, and exits. Node.js is a long-running process. Your app boots, stays in memory, and listens on a port. That single difference drives almost every hosting decision.</p>
+
+<p class="wp-block-paragraph">Before you compare plans, check that the host can actually offer:</p>
+
+<ul class="wp-block-list">
+  <li><strong>An always-on process</strong>, not a serverless function that sleeps between requests (unless you have designed for that).</li>
+  <li><strong>A Node version you can pin.</strong> Production apps should stay on an LTS line. The Gen X Node.js page lists Node 16, 18, 20 and 22 LTS, switched from a cPanel Node.js Selector.</li>
+  <li><strong>NPM (or a similar package workflow)</strong> so you can install dependencies on the server. The same page lists NPM from cPanel or via SSH.</li>
+  <li><strong>HTTP access in front of your app</strong>, usually through the host&apos;s proxy and a free SSL certificate.</li>
+  <li><strong>A database path.</strong> The Gen X plan lists MySQL 8.0 and describes apps as able to connect to an external MongoDB. It does not say MongoDB is hosted for you on the plan, so treat MongoDB as something you connect to from outside unless a page says otherwise.</li>
+</ul>
+
+<p class="wp-block-paragraph">WebSockets and background workers also assume that process stays up.</p>
+
+<h2 class="wp-block-heading">Shared hosting vs a Node.js plan vs a VPS</h2>
+
+<p class="wp-block-paragraph">Use the table as a decision guide, then confirm limits and prices on the live plan pages. This post does not quote rupee amounts, because those load on the product pages.</p>
+
+<div class="overflow-x-auto my-6">
+  <table class="w-full border-collapse border border-slate-200 dark:border-slate-700 text-left my-4 text-sm">
+    <thead class="bg-slate-100 dark:bg-slate-800 text-deep-navy dark:text-surface-white font-bold">
+      <tr>
+        <th class="p-3 border border-slate-200 dark:border-slate-700"></th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Ordinary shared hosting</th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Node.js hosting plan</th>
+        <th class="p-3 border border-slate-200 dark:border-slate-700">Linux VPS</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">Built for</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">PHP apps and WordPress, managed in cPanel or DirectAdmin</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Deploying Express, NestJS, Next.js or Koa with a Node selector</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Full-server control for one or many apps</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">Process model</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">PHP request/response (for example PHP-FPM)</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Always-on Node process via the panel&apos;s selector</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">You run the process manager and the reverse proxy</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">SSH and packages</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Panel tools; not a Node workflow</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">The Gen X Node.js page lists NPM and secure SSH</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Full root SSH on the <a href="https://genxwhosting.com/pages/nodex.php?type=linux-virtual-cloud">Linux Virtual Cloud</a> page</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">Node versions</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Not listed on the standard Linux shared cPanel page</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Node 16, 18, 20, 22 LTS, as listed</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">You install whatever the OS supports</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">Custom ports, Docker, workers</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Not the right tool</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Check with support before you assume a public custom port</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">You choose ports, install Docker, and run workers</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-200 dark:border-slate-700 font-semibold">When to pick it</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">Marketing sites and blogs, not production Node</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">One app, or a few, that fit the plan&apos;s disk, bandwidth and app count</td>
+        <td class="p-3 border border-slate-200 dark:border-slate-700">You have outgrown the Node plan, or you need root</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="wp-block-paragraph">On Gen X, ordinary shared hosting is the <a href="https://genxwhosting.com/pages/hosting.php?type=linux-sharedcp">Linux cPanel</a> or <a href="https://genxwhosting.com/pages/hosting.php?type=linux-shared">Linux DirectAdmin</a> line. The <a href="https://genxwhosting.com/pages/hosting.php?type=node-js">Node.js hosting</a> line is a separate product: Starter (10 GB NVMe, 1 website/app, 100 GB bandwidth, 5 email accounts, 5 MySQL databases, weekly backups), Basic (50 GB, up to 5 apps, 500 GB bandwidth, 50 email accounts, 20 MySQL databases, daily backups) and Premium (100 GB, unlimited apps, bandwidth, email and MySQL, daily backups). Every card lists an India data centre and a free SSL/TLS certificate.</p>
+
+<p class="wp-block-paragraph">If you only needed a brochure site, stay on shared hosting. If you are deploying Node, start from the Node.js plan page, not from a PHP shared plan.</p>
+
+<h2 class="wp-block-heading">Why server location in India matters for APIs and WebSockets</h2>
+
+<p class="wp-block-paragraph">Latency is not just a homepage concern. An API that talks to a mobile app, a checkout flow, or a WebSocket that keeps a dashboard live will feel the round trip on every call. If most of your users are in India, a server in India usually means a shorter path than one in Europe or the US.</p>
+
+<p class="wp-block-paragraph">The Gen X Node.js hosting page lists <strong>NVMe SSD storage in a Tier-4 India data centre</strong>, and each plan card repeats &ldquo;Data Center: India.&rdquo; That is the claim to check when you open the page.</p>
+
+<p class="wp-block-paragraph">For a VPS, do not assume the same location. The <a href="https://genxwhosting.com/pages/nodex.php?type=linux-virtual-cloud">Linux Virtual Cloud</a> page and the <a href="https://genxwhosting.com/pages/vps-for-indian-businesses.php">VPS for Indian businesses</a> guide describe root access, KVM resources and backups; they state that Gen X is based in Lucknow, but they do not spell out a data-centre city on those pages. Ask, or read the plan details, before you treat a VPS as an India-hosted option.</p>
+
+<p class="wp-block-paragraph">Other practical India details, as listed on the VPS guide: you can add a GSTIN in the client area so it appears on later invoices. Live chat, email and tickets are listed as 24/7; phone support is +91 9429692542, 10:00 am–7:30 pm IST, Monday–Saturday. This post does not claim a specific payment method (such as UPI) because the plan pages reviewed for this article do not list one.</p>
+
+<h2 class="wp-block-heading">A simple production shape</h2>
+
+<p class="wp-block-paragraph">You do not need a long hardening playbook to get a first production app into a sensible shape. Keep it to a checklist:</p>
+
+<ol class="wp-block-list">
+  <li><strong>Pin an LTS Node version</strong> in the selector (or on the VPS) and do not drift between environments.</li>
+  <li><strong>Keep the process alive.</strong> On a Node.js plan, use the platform&apos;s application manager. On a VPS, install a process manager you already know and run the app as a service — the Linux VPS page lists root access so you can install server-level packages, but it does not name a particular process manager as pre-installed.</li>
+  <li><strong>Put a reverse proxy and SSL in front.</strong> The Node.js plan lists automatic SSL. On a VPS you install the proxy yourself; the plan page mentions reverse proxies as something you can add with root access.</li>
+  <li><strong>Back up code and the database.</strong> Starter on the Node.js page lists weekly automated backups; Basic and Premium list daily. The Linux VPS page lists automated daily backups.</li>
+  <li><strong>Watch memory and logs.</strong> A memory leak will take a Node process down no matter which plan you are on.</li>
+</ol>
+
+<p class="wp-block-paragraph">Treat this as a checklist, not a hardening guide, and follow your own app&apos;s release steps for secrets and environment variables.</p>
+
+<h2 class="wp-block-heading">When a VPS is the better next step</h2>
+
+<p class="wp-block-paragraph">Stay on the Node.js plan while the app fits the app count, disk, bandwidth and memory you actually use. Move to a VPS when you need at least one of these:</p>
+
+<ul class="wp-block-list">
+  <li><strong>More memory or CPU than a shared Node plan can give you</strong>, or several heavy apps on one account.</li>
+  <li><strong>Multiple always-on processes</strong> — a web app plus workers, queues or bots.</li>
+  <li><strong>Docker</strong>, or software the Node selector will not install for you.</li>
+  <li><strong>Custom public ports</strong>, or a reverse-proxy layout you have to control yourself. Do not assume a shared Node plan will expose an arbitrary port; ask support, or use a VPS.</li>
+  <li><strong>Full root SSH</strong> and your own firewall, process manager and OS updates.</li>
+</ul>
+
+<p class="wp-block-paragraph">The Gen X <a href="https://genxwhosting.com/pages/nodex.php?type=linux-virtual-cloud">Linux Virtual Cloud</a> page lists KVM resources, full root SSH, instant provisioning, Intel Xeon processors, pre-installed MySQL 8.0, optional cPanel/WHM or DirectAdmin licences, automated daily backups, DDoS protection and a 99.9% uptime SLA. Plans start at NODE 1X (2 vCPU, 2 GB RAM, 40 GB SSD, 1 TB bandwidth) and step up through NODE 6X (8 vCPU, 64 GB RAM, 800 GB SSD, 12 TB bandwidth). For how to size those numbers, read <a href="https://blog.genxwhosting.com/blog/how-to-choose-a-vps-in-india-2026/">How to Choose a VPS in India (2026)</a> and <a href="https://blog.genxwhosting.com/blog/shared-vs-vps-hosting/">shared vs VPS hosting</a>.</p>
+
+<h2 class="wp-block-heading">How to evaluate a Node.js plan page</h2>
+
+<p class="wp-block-paragraph">When you open any Node.js or VPS page, including Gen X&apos;s, walk through this list and only trust what the page actually prints:</p>
+
+<ul class="wp-block-list">
+  <li><strong>App count, disk, bandwidth and database limits</strong> — the Gen X Starter, Basic and Premium cards are summarised above.</li>
+  <li><strong>Node versions and how you switch them.</strong></li>
+  <li><strong>SSH and NPM</strong>, not only a file upload form.</li>
+  <li><strong>Backup frequency</strong> (weekly vs daily on the Gen X cards).</li>
+  <li><strong>SSL</strong>, and whether it is automatic.</li>
+  <li><strong>Data-centre location</strong>, if your users are in India.</li>
+  <li><strong>Support hours and a phone number you can actually call.</strong></li>
+  <li><strong>Renewal price</strong>, not just the first-term offer. Open the page, switch to INR, and read both figures.</li>
+</ul>
+
+<p class="wp-block-paragraph">Current prices are on those two plan pages.</p>
+
+<h2 class="wp-block-heading">Who should choose what</h2>
+
+<p class="wp-block-paragraph"><strong>A prototype, a student project, or a small API.</strong> The Node.js Starter plan (one app, 10 GB) is the intended fit on the Gen X page.</p>
+
+<p class="wp-block-paragraph"><strong>A production app with a few services and a growing database.</strong> Basic or Premium on the Node.js line, as long as you do not need root or Docker.</p>
+
+<p class="wp-block-paragraph"><strong>A Next.js site plus background workers, or several apps with their own process trees.</strong> Start reading the VPS guide and size a Linux Virtual Cloud plan.</p>
+
+<p class="wp-block-paragraph"><strong>A WordPress or PHP marketing site with no Node runtime.</strong> Use <a href="https://genxwhosting.com/pages/hosting.php?type=linux-sharedcp">Linux shared cPanel hosting</a> instead; do not buy a Node plan for it.</p>
+
+<h2 class="wp-block-heading">FAQ</h2>
+
+<h3 class="wp-block-heading">Can I run Next.js on a Node.js hosting plan?</h3>
+<p class="wp-block-paragraph">The Gen X Node.js page lists Next.js (along with Express, NestJS and Koa) as an app you can deploy with the cPanel Node.js Selector. Confirm build and memory needs against the plan limits before you go live.</p>
+
+<h3 class="wp-block-heading">Can I host a Telegram or Discord bot?</h3>
+<p class="wp-block-paragraph">A bot is just another always-on Node process. A Node.js plan can be enough if the bot is small and the platform keeps the process running. If you need several workers, more memory, or packages the selector will not install, use a VPS.</p>
+
+<h3 class="wp-block-heading">Can I open a custom public port?</h3>
+<p class="wp-block-paragraph">This article does not assume that a shared Node.js plan will expose an arbitrary port. Ask support, or choose a Linux VPS, where you control the stack and the proxy.</p>
+
+<h3 class="wp-block-heading">Does ordinary shared hosting run Node.js?</h3>
+<p class="wp-block-paragraph">The standard Linux shared cPanel and DirectAdmin pages describe PHP, email, SSL and 1-click apps. They do not list a Node.js selector. Use the Node.js hosting plan or a VPS for Node apps.</p>
+
+<h3 class="wp-block-heading">Where do I see current prices?</h3>
+<p class="wp-block-paragraph">On the <a href="https://genxwhosting.com/pages/hosting.php?type=node-js">Node.js hosting</a> page and the <a href="https://genxwhosting.com/pages/nodex.php?type=linux-virtual-cloud">Linux Virtual Cloud</a> page. Switch the site currency to INR and read the first-term and renewal figures.</p>
+
+<h3 class="wp-block-heading">Is there a money-back period?</h3>
+<p class="wp-block-paragraph">The Node.js and Linux VPS plan pages list a 30-day money-back guarantee. The refund conditions are in the <a href="https://genxwhosting.com/pages/terms.php">Terms of Use</a>.</p>
+
+<h2 class="wp-block-heading">Deploy your Node.js app</h2>
+
+<p class="wp-block-paragraph">If a Node.js plan is the right size, compare the live cards on the <a href="https://genxwhosting.com/pages/hosting.php?type=node-js">Node.js hosting page</a>. If you already know you need root, start with <a href="https://genxwhosting.com/pages/nodex.php?type=linux-virtual-cloud">Linux Virtual Cloud</a> and the <a href="https://blog.genxwhosting.com/blog/how-to-choose-a-vps-in-india-2026/">VPS sizing guide</a>.</p>
+
+<p class="wp-block-paragraph">Questions: call <a href="tel:+919429692542">+91 9429692542</a>, 10:00 am–7:30 pm IST, Monday–Saturday. Live chat, email and tickets are listed as 24/7 on the site.</p>4:["$","main",null,{"className":"flex-grow w-full max-w-container-max mx-auto px-margin-edge py-10 md:py-section-gap","children":["$","article",null,{"className":"max-w-3xl mx-auto","children":[["$","header",null,{"className":"mb-10 md:mb-gutter text-center","children":[["$","div",null,{"className":"flex justify-center gap-2 mb-6","children":["$","$L9",null,{"href":"/category/web-hosting-tips","children":["$","span",null,{"className":"font-label-sm text-xs md:text-label-sm bg-[#EBF2F7] text-primary px-4 py-1.5 rounded-full hover:bg-primary hover:text-white transition-colors cursor-pointer tracking-wide uppercase","children":["Web Hosting Tips",""]}]}]}],["$","h1",null,{"className":"font-display-lg text-3xl md:text-display-lg text-deep-navy dark:text-surface-white mb-6 md:mb-8 font-bold leading-tight","dangerouslySetInnerHTML":{"__html":"Node.js Hosting in India: Shared, Managed or VPS?"}}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-4 text-secondary font-body-md text-sm md:text-body-md mb-8","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-8 h-8 md:w-10 md:h-10 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden relative","children":["$","$La",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCdB2eKSPNrGZkQamf9ypW7qQjNgwlhZB9xlNc6vR7k6Em_ii9bOdemiC8tmhcExY95tclRWKuVaLxhsoJwb8aWQ6QLzYe9bURqY4xkVHC-xQ2htn8IR-lXXfUjhkXZ820X_ErI7WJoR8iV9vJYVeCt8mEsuLdV7GPRzTD0KcNsPqHG96hTjbbsN8e5C_ThtTW_gDQLr2paUE1ZB-4rrmzTaR1MJZJerTOeGwGea5DfWI1p2a9-L5kvvrayvsm5RbM_M6d7g1uPP_lM","alt":"Author","fill":true,"style":{"objectFit":"cover"},"className":"object-cover","sizes":"40px"}]}],["$","span",null,{"children":["By ",["$","strong",null,{"className":"text-deep-navy dark:text-surface-white","children":"Gen X Web Hosting"}]]}]]}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","time",null,{"dateTime":"2026-11-26T00:00:00.000Z","children":"Nov 26, 2026"}],["$","span",null,{"className":"text-outline hidden sm:inline","children":"•"}],["$","span",null,{"children":"11 min read"}]]}]]}],["$","div",null,{"className":"w-full aspect-video md:aspect-[21/9] mb-12 md:mb-section-gap rounded-xl overflow-hidden border border-outline-variant shadow-sm relative group","children":["$","$La",null,{"src":"/images/blog/nodejs-hosting-india-shared-managed-or-vps-hero.webp","alt":"Hero","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-700","priority":true,"sizes":"(max-width: 1024px) 100vw, 1024px"}]}],["$","div",null,{"className":"prose prose-slate prose-lg md:prose-xl max-w-none text-slate-text dark:text-surface-white space-y-6 prose-headings:text-deep-navy dark:prose-headings:text-surface-white prose-a:text-primary hover:prose-a:text-primary-container prose-img:rounded-xl prose-img:shadow-md mx-auto dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$b"}}],"$Lc","$Ld"]}]}]
+5:["$","section",null,{"className":"bg-surface dark:bg-transparent py-12 md:py-section-gap border-t border-outline-variant","children":["$","div",null,{"className":"max-w-container-max mx-auto px-margin-edge","children":[["$","h2",null,{"className":"font-headline-lg text-2xl md:text-headline-lg text-deep-navy dark:text-surface-white mb-8 md:mb-10 font-bold","children":"Related Articles"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter","children":[["$","$L9","1415",{"href":"/blog/linux-reseller-hosting-whm-packages-cloudlinux","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$La",null,{"src":"/images/blog/linux-reseller-hosting-whm-packages-cloudlinux-hero.webp","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Web Hosting Tips"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Linux Reseller Hosting: WHM, Packages and CloudLinux"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"How Linux reseller hosting works: WHM versus cPanel, how to build packages, private nameservers, and what CloudLinux changes for client accounts."}}]]}]]}],["$","$L9","1414",{"href":"/blog/black-friday-web-hosting-deals-india-2026","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":["$","$La",null,{"src":"/images/blog/black-friday-2026-hero.webp","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]}],["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Web Hosting Tips"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"Black Friday 2026 Hosting Deals in India"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"Gen X Black Friday 2026, 14-30 Nov: a new hosting, VPS or email deal each day, first-year domain prices, and up to 70% wallet bonus. Check live renewals."}}]]}]]}],["$","$L9","1413",{"href":"/blog/how-to-choose-a-vps-in-india-2026","className":"block bg-surface-white dark:bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:-translate-y-1 transition-transform duration-300 group shadow-sm hover:shadow-xl flex flex-col","children":[["$","div",null,{"className":"h-48 md:h-52 w-full bg-surface-variant relative overflow-hidden","children":"$Le"}],"$Lf"]}]]}]]}]}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/15bnz8wmddiqu.js","async":true}]
+7:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+c:["$","div",null,{"className":"mt-16 pt-8 border-t border-outline-variant flex flex-wrap gap-3","children":[["$","span",null,{"className":"font-body-md font-semibold text-deep-navy dark:text-surface-white self-center mr-2","children":"Category:"}],["$","span",null,{"className":"font-label-sm text-sm border border-outline-variant text-secondary px-4 py-1.5 rounded-full hover:bg-surface-container-low transition-colors cursor-pointer","children":"Web Hosting Tips"}]]}]
+d:["$","div",null,{"className":"mt-12 md:mt-section-gap bg-surface-bright dark:bg-surface-container p-6 md:p-8 rounded-xl border border-outline-variant flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start shadow-sm","children":[["$","div",null,{"className":"w-20 h-20 md:w-24 md:h-24 rounded-full border border-outline-variant bg-surface-container-low overflow-hidden shrink-0 shadow-inner","children":["$","img",null,{"src":"https://lh3.googleusercontent.com/aida-public/AB6AXuCU8d4UdsgPXJQAaHWCF7cC3UIpDpK91pVQkYGh5Drwwwwm1wnMlsVI-ijLOEpL5eoE83eT1oMYX5f8EjvU-KVvnUuzjjN3IrBIahOWaG1K7_A0p0uH4SUPNcoeYdbel3szgO7O8OsJAHbF29TVe_MleLFFWCmNOrrthJwx6Z0HLPQs0lXQZGJ-5xTIhrF8K2K8q-_xHqyRR2ki8pnqgJAmC6HbzpmsGSW46BFfuDYH8YCRGSS15vLDjC_lxd7bIV3CTiC1en8KwOst","alt":"Author","className":"w-full h-full object-cover"}]}],["$","div",null,{"className":"text-center md:text-left","children":[["$","h3",null,{"className":"font-headline-md text-xl md:text-2xl text-deep-navy dark:text-surface-white mb-2 font-bold","children":"Gen X Web Hosting"}],["$","p",null,{"className":"font-body-md text-base md:text-body-md text-on-surface-variant mb-4","children":"Experts in high-performance cloud infrastructure, domain management, and optimized web hosting solutions."}],["$","a",null,{"href":"https://genxwhosting.com","className":"text-primary font-medium hover:underline inline-flex items-center gap-1","children":["Visit Website ",["$","span",null,{"className":"material-symbols-outlined text-sm","children":"open_in_new"}]]}]]}]]}]
+e:["$","$La",null,{"src":"/images/blog/Shared-Hosting-1-scaled.webp","alt":"Thumbnail","fill":true,"style":{"objectFit":"cover"},"className":"object-cover group-hover:scale-105 transition-transform duration-500","sizes":"(max-width: 768px) 100vw, 33vw"}]
+f:["$","div",null,{"className":"p-5 md:p-6 flex flex-col flex-grow","children":[["$","span",null,{"className":"font-label-sm text-xs text-primary mb-3 block uppercase tracking-wide font-semibold","children":"Web Hosting Tips"}],["$","h3",null,{"className":"font-headline-md text-lg md:text-xl text-deep-navy dark:text-surface-white mb-3 group-hover:text-primary transition-colors font-bold line-clamp-2","dangerouslySetInnerHTML":{"__html":"How to Choose a VPS in India (2026)"}}],["$","p",null,{"className":"font-body-md text-sm text-on-surface-variant line-clamp-2 mt-auto","dangerouslySetInnerHTML":{"__html":"A practical 2026 guide to sizing CPU, RAM, storage and bandwidth, reading VPS prices in INR, and picking a data-centre location for Indian users."}}]]}]
+12:null
